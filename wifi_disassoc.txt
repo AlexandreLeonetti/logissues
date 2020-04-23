@@ -1,0 +1,1003 @@
+-- Logs begin at Sun 2020-03-01 22:08:18 CST, end at Thu 2020-04-23 17:17:01 CST. --
+4月 23 08:27:56 alex-pc kernel: input: HDA ATI HDMI HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:01.1/sound/card0/input11
+4月 23 08:27:56 alex-pc kernel: input: HDA ATI HDMI HDMI/DP,pcm=7 as /devices/pci0000:00/0000:00:01.1/sound/card0/input12
+4月 23 08:27:56 alex-pc kernel: snd_hda_codec_realtek hdaudioC1D0: autoconfig for ALC662 rev3: line_outs=1 (0x14/0x0/0x0/0x0/0x0) type:line
+4月 23 08:27:56 alex-pc kernel: snd_hda_codec_realtek hdaudioC1D0:    speaker_outs=1 (0x15/0x0/0x0/0x0/0x0)
+4月 23 08:27:56 alex-pc kernel: snd_hda_codec_realtek hdaudioC1D0:    hp_outs=1 (0x1b/0x0/0x0/0x0/0x0)
+4月 23 08:27:56 alex-pc kernel: snd_hda_codec_realtek hdaudioC1D0:    mono: mono_out=0x0
+4月 23 08:27:56 alex-pc kernel: snd_hda_codec_realtek hdaudioC1D0:    inputs:
+4月 23 08:27:56 alex-pc kernel: snd_hda_codec_realtek hdaudioC1D0:      Front Mic=0x19
+4月 23 08:27:56 alex-pc kernel: snd_hda_codec_realtek hdaudioC1D0:      Rear Mic=0x18
+4月 23 08:27:56 alex-pc kernel: input: HD-Audio Generic Front Mic as /devices/pci0000:00/0000:00:14.2/sound/card1/input13
+4月 23 08:27:56 alex-pc kernel: input: HD-Audio Generic Rear Mic as /devices/pci0000:00/0000:00:14.2/sound/card1/input14
+4月 23 08:27:56 alex-pc kernel: input: HD-Audio Generic Line Out as /devices/pci0000:00/0000:00:14.2/sound/card1/input15
+4月 23 08:27:56 alex-pc kernel: input: HD-Audio Generic Front Headphone as /devices/pci0000:00/0000:00:14.2/sound/card1/input16
+4月 23 08:27:56 alex-pc kernel: uvcvideo 2-1.1:1.0: Entity type for entity Extension 3 was not initialized!
+4月 23 08:27:56 alex-pc kernel: uvcvideo 2-1.1:1.0: Entity type for entity Processing 2 was not initialized!
+4月 23 08:27:56 alex-pc kernel: uvcvideo 2-1.1:1.0: Entity type for entity Camera 1 was not initialized!
+4月 23 08:27:56 alex-pc kernel: input: HP Webcam-101: HP Webcam-101 as /devices/pci0000:00/0000:00:13.0/usb2/2-1/2-1.1/2-1.1:1.0/input/input17
+4月 23 08:27:56 alex-pc kernel: usbcore: registered new interface driver uvcvideo
+4月 23 08:27:56 alex-pc kernel: USB Video Class driver (1.1.1)
+4月 23 08:27:56 alex-pc kernel: cryptd: max_cpu_qlen set to 1000
+4月 23 08:27:56 alex-pc kernel: AVX version of gcm_enc/dec engaged.
+4月 23 08:27:56 alex-pc kernel: AES CTR mode by8 optimization enabled
+4月 23 08:27:56 alex-pc kernel: usbcore: registered new interface driver r8188eu
+4月 23 08:27:56 alex-pc ureadahead[339]: ureadahead:/usr/share/dbus-1/system-services/org.kubuntu.qaptworker3.service: No such file or directory
+4月 23 08:27:56 alex-pc ureadahead[339]: ureadahead:/usr/share/dbus-1/system-services/org.kde.discover.libsnapclient.service: No such file or directory
+4月 23 08:27:57 alex-pc systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+4月 23 08:27:57 alex-pc kernel: Bluetooth: hci0: hardware error 0x37
+4月 23 08:27:57 alex-pc systemd[1]: Starting Load/Save RF Kill Switch Status...
+4月 23 08:27:57 alex-pc systemd-udevd[392]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+4月 23 08:27:57 alex-pc ureadahead[339]: ureadahead:/usr/share/dbus-1/system-services/org.freedesktop.bolt.service: No such file or directory
+4月 23 08:27:57 alex-pc ureadahead[339]: ureadahead:/usr/sbin/ofonod: No such file or directory
+4月 23 08:27:57 alex-pc systemd[1]: Found device Extreme_Pro 3.
+4月 23 08:27:57 alex-pc kernel: kvm: Nested Virtualization enabled
+4月 23 08:27:57 alex-pc kernel: kvm: Nested Paging enabled
+4月 23 08:27:57 alex-pc systemd[1]: Found device Extreme_Pro 2.
+4月 23 08:27:57 alex-pc kernel: MCE: In-kernel MCE decoding enabled.
+4月 23 08:27:57 alex-pc kernel: EDAC amd64: Node 0: DRAM ECC disabled.
+4月 23 08:27:57 alex-pc kernel: EDAC amd64: ECC disabled in the BIOS or no ECC capability, module will not load.
+                                  Either enable ECC checking or force module loading by setting 'ecc_enable_override'.
+                                  (Note that use of the override may cause unknown side effects.)
+4月 23 08:27:57 alex-pc systemd[1]: Started Load/Save RF Kill Switch Status.
+4月 23 08:27:57 alex-pc systemd[1]: Reached target Sound Card.
+4月 23 08:27:57 alex-pc systemd-udevd[387]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+4月 23 08:27:57 alex-pc systemd[1]: Activating swap /dev/disk/by-uuid/529747b0-e60a-42c3-afbc-1a47d61136f0...
+4月 23 08:27:57 alex-pc kernel: r8188eu 1-1.4:1.0 wlx503eaa82501a: renamed from wlan0
+4月 23 08:27:57 alex-pc systemd[1]: Starting File System Check on /dev/disk/by-uuid/6EA3-E2E2...
+4月 23 08:27:57 alex-pc systemd[1]: Started File System Check Daemon to report status.
+4月 23 08:27:57 alex-pc kernel: Adding 40958972k swap on /dev/sdb2.  Priority:-2 extents:1 across:40958972k FS
+4月 23 08:27:57 alex-pc systemd[1]: Activated swap /dev/disk/by-uuid/529747b0-e60a-42c3-afbc-1a47d61136f0.
+4月 23 08:27:57 alex-pc systemd[1]: Reached target Swap.
+4月 23 08:27:57 alex-pc systemd-fsck[598]: fsck.fat 4.1 (2017-01-24)
+4月 23 08:27:57 alex-pc systemd-fsck[598]: 0x41: Dirty bit is set. Fs was not properly unmounted and some data may be corrupt.
+4月 23 08:27:57 alex-pc systemd-fsck[598]:  Automatically removing dirty bit.
+4月 23 08:27:57 alex-pc systemd-fsck[598]: Performing changes.
+4月 23 08:27:57 alex-pc systemd-fsck[598]: /dev/sdb3: 18 files, 1962/255496 clusters
+4月 23 08:27:57 alex-pc systemd[1]: Started File System Check on /dev/disk/by-uuid/6EA3-E2E2.
+4月 23 08:27:57 alex-pc systemd[1]: Mounting /boot/efi...
+4月 23 08:27:57 alex-pc systemd[1]: Mounted /boot/efi.
+4月 23 08:27:57 alex-pc systemd[1]: Reached target Local File Systems.
+4月 23 08:27:57 alex-pc systemd[1]: Starting Set console font and keymap...
+4月 23 08:27:57 alex-pc systemd[1]: Starting Create Volatile Files and Directories...
+4月 23 08:27:57 alex-pc systemd[1]: Starting AppArmor initialization...
+4月 23 08:27:57 alex-pc systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+4月 23 08:27:57 alex-pc systemd[1]: Started Set console font and keymap.
+4月 23 08:27:57 alex-pc systemd-udevd[393]: Process '/usr/sbin/alsactl -E HOME=/run/alsa restore 1' failed with exit code 99.
+4月 23 08:27:57 alex-pc systemd[1]: Started Create Volatile Files and Directories.
+4月 23 08:27:57 alex-pc systemd[1]: Starting Network Time Synchronization...
+4月 23 08:27:57 alex-pc systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+4月 23 08:27:57 alex-pc apparmor[644]:  * Starting AppArmor profiles
+4月 23 08:27:57 alex-pc systemd[1]: Starting Network Name Resolution...
+4月 23 08:27:57 alex-pc systemd[1]: Started Tell Plymouth To Write Out Runtime Data.
+4月 23 08:27:57 alex-pc systemd[1]: Started Update UTMP about System Boot/Shutdown.
+4月 23 08:27:57 alex-pc audit[703]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-oopslash" pid=703 comm="apparmor_parser"
+4月 23 08:27:57 alex-pc audit[702]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/man" pid=702 comm="apparmor_parser"
+4月 23 08:27:57 alex-pc audit[702]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_filter" pid=702 comm="apparmor_parser"
+4月 23 08:27:57 alex-pc audit[702]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_groff" pid=702 comm="apparmor_parser"
+4月 23 08:27:57 alex-pc audit[704]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-senddoc" pid=704 comm="apparmor_parser"
+4月 23 08:27:57 alex-pc audit[704]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-senddoc//sanitized_helper" pid=704 comm="apparmor_parser"
+4月 23 08:27:57 alex-pc kernel: audit: type=1400 audit(1587601677.580:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-oopslash" pid=703 comm="apparmor_parser"
+4月 23 08:27:57 alex-pc kernel: audit: type=1400 audit(1587601677.580:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/man" pid=702 comm="apparmor_parser"
+4月 23 08:27:57 alex-pc kernel: audit: type=1400 audit(1587601677.580:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_filter" pid=702 comm="apparmor_parser"
+4月 23 08:27:57 alex-pc kernel: audit: type=1400 audit(1587601677.580:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_groff" pid=702 comm="apparmor_parser"
+4月 23 08:27:57 alex-pc kernel: audit: type=1400 audit(1587601677.580:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-senddoc" pid=704 comm="apparmor_parser"
+4月 23 08:27:57 alex-pc kernel: audit: type=1400 audit(1587601677.580:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-senddoc//sanitized_helper" pid=704 comm="apparmor_parser"
+4月 23 08:27:57 alex-pc kernel: audit: type=1400 audit(1587601677.584:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-xpdfimport" pid=706 comm="apparmor_parser"
+4月 23 08:27:57 alex-pc kernel: audit: type=1400 audit(1587601677.584:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=701 comm="apparmor_parser"
+4月 23 08:27:57 alex-pc kernel: audit: type=1400 audit(1587601677.584:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=701 comm="apparmor_parser"
+4月 23 08:27:57 alex-pc kernel: audit: type=1400 audit(1587601677.584:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=701 comm="apparmor_parser"
+4月 23 08:27:57 alex-pc audit[706]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-xpdfimport" pid=706 comm="apparmor_parser"
+4月 23 08:27:57 alex-pc audit[701]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=701 comm="apparmor_parser"
+4月 23 08:27:57 alex-pc audit[701]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=701 comm="apparmor_parser"
+4月 23 08:27:57 alex-pc audit[701]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=701 comm="apparmor_parser"
+4月 23 08:27:57 alex-pc audit[701]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=701 comm="apparmor_parser"
+4月 23 08:27:57 alex-pc audit[709]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/cups/backend/cups-pdf" pid=709 comm="apparmor_parser"
+4月 23 08:27:57 alex-pc audit[709]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/cupsd" pid=709 comm="apparmor_parser"
+4月 23 08:27:57 alex-pc audit[709]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/cupsd//third_party" pid=709 comm="apparmor_parser"
+4月 23 08:27:57 alex-pc audit[705]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-soffice" pid=705 comm="apparmor_parser"
+4月 23 08:27:57 alex-pc audit[705]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-soffice//gpg" pid=705 comm="apparmor_parser"
+4月 23 08:27:57 alex-pc audit[707]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/snapd/snap-confine" pid=707 comm="apparmor_parser"
+4月 23 08:27:57 alex-pc audit[707]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=707 comm="apparmor_parser"
+4月 23 08:27:57 alex-pc audit[710]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/haveged" pid=710 comm="apparmor_parser"
+4月 23 08:27:57 alex-pc audit[711]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/ippusbxd" pid=711 comm="apparmor_parser"
+4月 23 08:27:57 alex-pc audit[708]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/cups-browsed" pid=708 comm="apparmor_parser"
+4月 23 08:27:57 alex-pc audit[714]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/tcpdump" pid=714 comm="apparmor_parser"
+4月 23 08:27:57 alex-pc apparmor[644]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+4月 23 08:27:57 alex-pc systemd[1]: Started AppArmor initialization.
+4月 23 08:27:57 alex-pc apparmor[644]:    ...done.
+4月 23 08:27:57 alex-pc systemd-resolved[660]: Positive Trust Anchors:
+4月 23 08:27:57 alex-pc systemd-resolved[660]: . IN DS 19036 8 2 49aac11d7b6f6446702e54a1607371607a1a41855200fd2ce1cdde32f24e8fb5
+4月 23 08:27:57 alex-pc systemd-resolved[660]: . IN DS 20326 8 2 e06d44b80b8f1d39a95c0b0d7c65d08458e880409bbc683457104237c7f8ec8d
+4月 23 08:27:57 alex-pc systemd-resolved[660]: Negative trust anchors: 10.in-addr.arpa 16.172.in-addr.arpa 17.172.in-addr.arpa 18.172.in-addr.arpa 19.172.in-addr.arpa 20.172.in-addr.arpa 21.172.in-addr.arpa 22.172.in-addr.arpa 23.172.in-addr.arpa 24.172.in-addr.arpa 25.172.in-addr.arpa 26.172.in-addr.arpa 27.172.in-addr.arpa 28.172.in-addr.arpa 29.172.in-addr.arpa 30.172.in-addr.arpa 31.172.in-addr.arpa 168.192.in-addr.arpa d.f.ip6.arpa corp home internal intranet lan local private test
+4月 23 08:27:57 alex-pc systemd-resolved[660]: Using system hostname 'alex-pc'.
+4月 23 08:27:57 alex-pc systemd[1]: Started Network Name Resolution.
+4月 23 08:27:57 alex-pc systemd[1]: Reached target Host and Network Name Lookups.
+4月 23 08:27:57 alex-pc systemd[1]: Started Network Time Synchronization.
+4月 23 08:27:57 alex-pc systemd[1]: Reached target System Initialization.
+4月 23 08:27:57 alex-pc systemd[1]: Starting Socket activation for snappy daemon.
+4月 23 08:27:57 alex-pc systemd[1]: Listening on UUID daemon activation socket.
+4月 23 08:27:57 alex-pc systemd[1]: Started Message of the Day.
+4月 23 08:27:57 alex-pc systemd[1]: Listening on CUPS Scheduler.
+4月 23 08:27:57 alex-pc systemd[1]: Listening on D-Bus System Message Bus Socket.
+4月 23 08:27:57 alex-pc systemd[1]: Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+4月 23 08:27:57 alex-pc systemd[1]: nordvpnd.socket: TCP_NODELAY failed: Operation not supported
+4月 23 08:27:57 alex-pc systemd[1]: Listening on NordVPN Daemon Socket.
+4月 23 08:27:57 alex-pc systemd[1]: Listening on ACPID Listen Socket.
+4月 23 08:27:57 alex-pc systemd[1]: Started Daily Cleanup of Temporary Directories.
+4月 23 08:27:57 alex-pc systemd[1]: Started ACPI Events Check.
+4月 23 08:27:57 alex-pc systemd[1]: Started CUPS Scheduler.
+4月 23 08:27:57 alex-pc systemd[1]: Reached target Paths.
+4月 23 08:27:57 alex-pc systemd[1]: Reached target System Time Synchronized.
+4月 23 08:27:57 alex-pc systemd[1]: Started Daily apt download activities.
+4月 23 08:27:57 alex-pc systemd[1]: Started Discard unused blocks once a week.
+4月 23 08:27:57 alex-pc systemd[1]: Started Daily apt upgrade and clean activities.
+4月 23 08:27:57 alex-pc systemd[1]: Started Trigger anacron every hour.
+4月 23 08:27:57 alex-pc systemd[1]: Started Clean PHP session files every 30 mins.
+4月 23 08:27:57 alex-pc systemd[1]: Reached target Timers.
+4月 23 08:27:57 alex-pc systemd[1]: Listening on Socket activation for snappy daemon.
+4月 23 08:27:57 alex-pc systemd[1]: Reached target Sockets.
+4月 23 08:27:57 alex-pc systemd[1]: Reached target Basic System.
+4月 23 08:27:57 alex-pc systemd[1]: Starting Thermal Daemon Service...
+4月 23 08:27:57 alex-pc systemd[1]: Started D-Bus System Message Bus.
+4月 23 08:27:57 alex-pc dbus-daemon[718]: dbus[718]: Unknown group "power" in message bus configuration file
+4月 23 08:27:57 alex-pc dbus-daemon[718]: [system] AppArmor D-Bus mediation is enabled
+4月 23 08:27:57 alex-pc systemd[1]: Starting Detect the available GPUs and deal with any system changes...
+4月 23 08:27:57 alex-pc thermald[717]: NO RAPL sysfs present
+4月 23 08:27:57 alex-pc systemd[1]: Starting Bluetooth service...
+4月 23 08:27:57 alex-pc systemd[1]: Starting Restore /etc/resolv.conf if the system crashed before the ppp link was shut down...
+4月 23 08:27:57 alex-pc systemd[1]: Started CUPS Scheduler.
+4月 23 08:27:57 alex-pc thermald[717]: Unsupported cpu model, use thermal-conf.xml file or run with --ignore-cpuid-check
+4月 23 08:27:57 alex-pc thermald[717]: THD engine start failed
+4月 23 08:27:57 alex-pc systemd[1]: Starting Avahi mDNS/DNS-SD Stack...
+4月 23 08:27:57 alex-pc systemd[1]: Starting Disk Manager...
+4月 23 08:27:57 alex-pc gpu-manager[719]: /etc/modprobe.d is not a file
+4月 23 08:27:57 alex-pc gpu-manager[719]: /etc/modprobe.d is not a file
+4月 23 08:27:57 alex-pc gpu-manager[719]: Error: can't open /lib/modules/4.18.0-25-generic/updates/dkms
+4月 23 08:27:57 alex-pc rsyslogd[727]: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.32.0]
+4月 23 08:27:57 alex-pc systemd[1]: Starting System Logging Service...
+4月 23 08:27:57 alex-pc rsyslogd[727]: rsyslogd's groupid changed to 108
+4月 23 08:27:57 alex-pc systemd[1]: Starting WPA supplicant...
+4月 23 08:27:57 alex-pc rsyslogd[727]: rsyslogd's userid changed to 103
+4月 23 08:27:57 alex-pc rsyslogd[727]:  [origin software="rsyslogd" swVersion="8.32.0" x-pid="727" x-info="http://www.rsyslog.com"] start
+4月 23 08:27:57 alex-pc wpa_supplicant[730]: Successfully initialized wpa_supplicant
+4月 23 08:27:57 alex-pc udisksd[725]: udisks daemon version 2.7.6 starting
+4月 23 08:27:57 alex-pc avahi-daemon[724]: Found user 'avahi' (UID 116) and group 'avahi' (GID 124).
+4月 23 08:27:57 alex-pc avahi-daemon[724]: Successfully dropped root privileges.
+4月 23 08:27:57 alex-pc avahi-daemon[724]: avahi-daemon 0.7 starting up.
+4月 23 08:27:57 alex-pc avahi-daemon[724]: Successfully called chroot().
+4月 23 08:27:57 alex-pc avahi-daemon[724]: Successfully dropped remaining capabilities.
+4月 23 08:27:57 alex-pc avahi-daemon[724]: No service file found in /etc/avahi/services.
+4月 23 08:27:57 alex-pc avahi-daemon[724]: Joining mDNS multicast group on interface lo.IPv6 with address ::1.
+4月 23 08:27:57 alex-pc avahi-daemon[724]: New relevant interface lo.IPv6 for mDNS.
+4月 23 08:27:57 alex-pc avahi-daemon[724]: Joining mDNS multicast group on interface lo.IPv4 with address 127.0.0.1.
+4月 23 08:27:57 alex-pc avahi-daemon[724]: New relevant interface lo.IPv4 for mDNS.
+4月 23 08:27:57 alex-pc avahi-daemon[724]: Network interface enumeration completed.
+4月 23 08:27:57 alex-pc avahi-daemon[724]: Registering new address record for ::1 on lo.*.
+4月 23 08:27:57 alex-pc avahi-daemon[724]: Registering new address record for 127.0.0.1 on lo.IPv4.
+4月 23 08:27:58 alex-pc udisksd[725]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+4月 23 08:27:58 alex-pc udisksd[725]: Failed to load the 'mdraid' libblockdev plugin
+4月 23 08:27:58 alex-pc dbus-daemon[718]: [system] Activating via systemd: service name='org.freedesktop.PolicyKit1' unit='polkit.service' requested by ':1.5' (uid=0 pid=725 comm="/usr/lib/udisks2/udisksd " label="unconfined")
+4月 23 08:27:58 alex-pc systemd[1]: Started Set the CPU Frequency Scaling governor.
+4月 23 08:27:58 alex-pc systemd[1]: Starting Login Service...
+4月 23 08:27:58 alex-pc bluetoothd[720]: Bluetooth daemon 5.48
+4月 23 08:27:58 alex-pc systemd[1]: Started irqbalance daemon.
+4月 23 08:27:58 alex-pc bluetoothd[720]: Starting SDP server
+4月 23 08:27:58 alex-pc systemd[1]: Starting Modem Manager...
+4月 23 08:27:58 alex-pc systemd[1]: Reached target Login Prompts.
+4月 23 08:27:58 alex-pc systemd-logind[744]: New seat seat0.
+4月 23 08:27:58 alex-pc kernel: Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+4月 23 08:27:58 alex-pc kernel: Bluetooth: BNEP filters: protocol multicast
+4月 23 08:27:58 alex-pc kernel: Bluetooth: BNEP socket layer initialized
+4月 23 08:27:58 alex-pc dbus-daemon[718]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.6' (uid=0 pid=720 comm="/usr/lib/bluetooth/bluetoothd " label="unconfined")
+4月 23 08:27:58 alex-pc bluetoothd[720]: Bluetooth management interface 1.14 initialized
+4月 23 08:27:58 alex-pc bluetoothd[720]: LEAdvertisingManager skipped, LE unavailable
+4月 23 08:27:58 alex-pc systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+4月 23 08:27:58 alex-pc systemd-logind[744]: Watching system buttons on /dev/input/event1 (Power Button)
+4月 23 08:27:58 alex-pc systemd-logind[744]: Watching system buttons on /dev/input/event0 (Power Button)
+4月 23 08:27:58 alex-pc systemd[1]: Started ACPI event daemon.
+4月 23 08:27:58 alex-pc systemd[1]: Starting Accounts Service...
+4月 23 08:27:58 alex-pc systemd[1]: Starting Save/Restore Sound Card State...
+4月 23 08:27:58 alex-pc systemd[1]: Started Regular background program processing daemon.
+4月 23 08:27:58 alex-pc cron[757]: (CRON) INFO (pidfile fd = 3)
+4月 23 08:27:58 alex-pc cron[757]: (CRON) INFO (Running @reboot jobs)
+4月 23 08:27:58 alex-pc systemd[1]: Started Run anacron jobs.
+4月 23 08:27:58 alex-pc anacron[758]: Anacron 2.3 started on 2020-04-23
+4月 23 08:27:58 alex-pc systemd[1]: Starting Network Manager...
+4月 23 08:27:58 alex-pc anacron[758]: Normal exit (0 jobs run)
+4月 23 08:27:58 alex-pc systemd[1]: Starting Initialize hardware monitoring sensors...
+4月 23 08:27:58 alex-pc systemd[1]: Starting LSB: Record successful boot for GRUB...
+4月 23 08:27:58 alex-pc systemd[1]: Starting Fall back on nouveau if nvidia is not loaded...
+4月 23 08:27:58 alex-pc systemd[1]: Starting LSB: automatic crash report generation...
+4月 23 08:27:58 alex-pc apport[764]:  * Starting automatic crash report generation: apport
+4月 23 08:27:58 alex-pc systemd[1]: Starting Snappy daemon...
+4月 23 08:27:58 alex-pc systemd[1]: Started System Logging Service.
+4月 23 08:27:58 alex-pc systemd[1]: Started Thermal Daemon Service.
+4月 23 08:27:58 alex-pc systemd[1]: Started Detect the available GPUs and deal with any system changes.
+4月 23 08:27:58 alex-pc systemd[1]: Started Restore /etc/resolv.conf if the system crashed before the ppp link was shut down.
+4月 23 08:27:58 alex-pc systemd[1]: Started WPA supplicant.
+4月 23 08:27:58 alex-pc systemd[1]: Started Avahi mDNS/DNS-SD Stack.
+4月 23 08:27:58 alex-pc systemd[1]: Started Save/Restore Sound Card State.
+4月 23 08:27:58 alex-pc systemd[1]: Started Bluetooth service.
+4月 23 08:27:58 alex-pc systemd[1]: Starting Hostname Service...
+4月 23 08:27:58 alex-pc systemd[1]: Reached target Bluetooth.
+4月 23 08:27:58 alex-pc systemd[1]: Starting Authorization Manager...
+4月 23 08:27:58 alex-pc systemd[1]: Started Make remote CUPS printers available locally.
+4月 23 08:27:58 alex-pc ModemManager[747]: <info>  ModemManager (version 1.6.8) starting in system bus...
+4月 23 08:27:58 alex-pc systemd-logind[744]: Watching system buttons on /dev/input/event3 (SINO WEALTH USB Composite Device)
+4月 23 08:27:58 alex-pc acpid[751]: starting up with netlink and the input layer
+4月 23 08:27:58 alex-pc systemd-logind[744]: Watching system buttons on /dev/input/event5 (SINO WEALTH USB Composite Device System Control)
+4月 23 08:27:58 alex-pc apport[764]:    ...done.
+4月 23 08:27:58 alex-pc systemd[1]: Started LSB: automatic crash report generation.
+4月 23 08:27:58 alex-pc systemd[1]: Started Login Service.
+4月 23 08:27:58 alex-pc sensors[785]: k10temp-pci-00c3
+4月 23 08:27:58 alex-pc sensors[785]: Adapter: PCI adapter
+4月 23 08:27:58 alex-pc sensors[785]: temp1:        +44.2°C  (high = +70.0°C)
+4月 23 08:27:58 alex-pc sensors[785]:                        (crit = +105.0°C, hyst = +104.0°C)
+4月 23 08:27:58 alex-pc sensors[785]: radeon-pci-0008
+4月 23 08:27:58 alex-pc sensors[785]: Adapter: PCI adapter
+4月 23 08:27:58 alex-pc sensors[785]: temp1:        +47.0°C  (crit = +120.0°C, hyst = +90.0°C)
+4月 23 08:27:58 alex-pc sensors[785]: fam15h_power-pci-00c4
+4月 23 08:27:58 alex-pc sensors[785]: Adapter: PCI adapter
+4月 23 08:27:58 alex-pc sensors[785]: power1:       52.50 W  (interval =   0.01 s, crit =  15.05 W)
+4月 23 08:27:58 alex-pc systemd[1]: Started Initialize hardware monitoring sensors.
+4月 23 08:27:58 alex-pc grub-common[761]:  * Recording successful boot for GRUB
+4月 23 08:27:58 alex-pc acpid[751]: 8 rules loaded
+4月 23 08:27:58 alex-pc acpid[751]: waiting for events: event logging is off
+4月 23 08:27:58 alex-pc systemd[1]: Started Fall back on nouveau if nvidia is not loaded.
+4月 23 08:27:58 alex-pc polkitd[779]: started daemon version 0.105 using authority implementation `local' version `0.105'
+4月 23 08:27:58 alex-pc dbus-daemon[718]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+4月 23 08:27:58 alex-pc accounts-daemon[752]: started daemon version 0.6.45
+4月 23 08:27:58 alex-pc systemd[1]: Started Authorization Manager.
+4月 23 08:27:58 alex-pc systemd[1]: Started Accounts Service.
+4月 23 08:27:58 alex-pc dbus-daemon[718]: [system] Successfully activated service 'org.freedesktop.hostname1'
+4月 23 08:27:58 alex-pc systemd[1]: Started Hostname Service.
+4月 23 08:27:58 alex-pc systemd[1]: Started Modem Manager.
+4月 23 08:27:58 alex-pc NetworkManager[759]: <info>  [1587601678.5303] NetworkManager (version 1.10.6) is starting... (for the first time)
+4月 23 08:27:58 alex-pc NetworkManager[759]: <info>  [1587601678.5305] Read config: /etc/NetworkManager/NetworkManager.conf (lib: 10-dns-resolved.conf, no-mac-addr-change.conf) (run: 10-globally-managed-devices.conf) (etc: default-wifi-powersave-on.conf)
+4月 23 08:27:58 alex-pc NetworkManager[759]: <info>  [1587601678.5433] manager[0x561d7084d060]: monitoring kernel firmware directory '/lib/firmware'.
+4月 23 08:27:58 alex-pc NetworkManager[759]: <info>  [1587601678.5434] monitoring ifupdown state file '/run/network/ifstate'.
+4月 23 08:27:58 alex-pc NetworkManager[759]: <info>  [1587601678.5500] hostname: hostname: using hostnamed
+4月 23 08:27:58 alex-pc NetworkManager[759]: <info>  [1587601678.5501] hostname: hostname changed from (none) to "alex-pc"
+4月 23 08:27:58 alex-pc NetworkManager[759]: <info>  [1587601678.5508] dns-mgr[0x561d70868170]: init: dns=systemd-resolved, rc-manager=symlink, plugin=systemd-resolved
+4月 23 08:27:58 alex-pc NetworkManager[759]: <info>  [1587601678.5522] manager[0x561d7084d060]: rfkill: WiFi hardware radio set enabled
+4月 23 08:27:58 alex-pc NetworkManager[759]: <info>  [1587601678.5523] manager[0x561d7084d060]: rfkill: WWAN hardware radio set enabled
+4月 23 08:27:58 alex-pc snapd[771]: AppArmor status: apparmor is enabled and all features are available
+4月 23 08:27:58 alex-pc systemd[1]: Started Network Manager.
+4月 23 08:27:58 alex-pc systemd[1]: Reached target Network.
+4月 23 08:27:58 alex-pc systemd[1]: Starting The Apache HTTP Server...
+4月 23 08:27:58 alex-pc systemd[1]: Starting vsftpd FTP server...
+4月 23 08:27:58 alex-pc systemd[1]: Started Unattended Upgrades Shutdown.
+4月 23 08:27:58 alex-pc dbus-daemon[718]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.16' (uid=0 pid=759 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+4月 23 08:27:58 alex-pc systemd[1]: Starting Permit User Sessions...
+4月 23 08:27:58 alex-pc systemd[1]: Starting OpenBSD Secure Shell server...
+4月 23 08:27:58 alex-pc systemd[1]: Starting MariaDB database server...
+4月 23 08:27:58 alex-pc systemd[1]: Starting Network Manager Wait Online...
+4月 23 08:27:58 alex-pc systemd[1]: Started vsftpd FTP server.
+4月 23 08:27:58 alex-pc networkd-dispatcher[749]: WARNING: systemd-networkd is not running, output will be incomplete.
+4月 23 08:27:58 alex-pc snapd[771]: 2020/04/23 08:27:58.605949 daemon.go:323: started snapd/2.32.5+18.04 (series 16; classic) ubuntu/18.04 (amd64) linux/4.18.0-25-generic.
+4月 23 08:27:58 alex-pc systemd[1]: Started Snappy daemon.
+4月 23 08:27:58 alex-pc systemd[1]: Started Permit User Sessions.
+4月 23 08:27:58 alex-pc snapd[771]: 2020/04/23 08:27:58.611156 stateengine.go:101: state ensure error: Get https://api.snapcraft.io/api/v1/snaps/sections: dial tcp: lookup api.snapcraft.io on 127.0.0.53:53: server misbehaving
+4月 23 08:27:58 alex-pc systemd[1]: Started Dispatcher daemon for systemd-networkd.
+4月 23 08:27:58 alex-pc systemd[1]: Starting Network Manager Script Dispatcher Service...
+4月 23 08:27:58 alex-pc systemd[1]: Starting Terminate Plymouth Boot Screen...
+4月 23 08:27:58 alex-pc systemd[1]: Starting Set console scheme...
+4月 23 08:27:58 alex-pc systemd[1]: Started Set console scheme.
+4月 23 08:27:58 alex-pc systemd[1]: Created slice system-getty.slice.
+4月 23 08:27:58 alex-pc systemd[1]: Started Terminate Plymouth Boot Screen.
+4月 23 08:27:58 alex-pc dbus-daemon[718]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+4月 23 08:27:58 alex-pc systemd[1]: Started Network Manager Script Dispatcher Service.
+4月 23 08:27:58 alex-pc NetworkManager[759]: <info>  [1587601678.6506] init!
+4月 23 08:27:58 alex-pc NetworkManager[759]: <info>  [1587601678.6510]       interface-parser: parsing file /etc/network/interfaces
+4月 23 08:27:58 alex-pc NetworkManager[759]: <info>  [1587601678.6510]       interface-parser: finished parsing file /etc/network/interfaces
+4月 23 08:27:58 alex-pc NetworkManager[759]: <info>  [1587601678.6510] management mode: unmanaged
+4月 23 08:27:58 alex-pc NetworkManager[759]: <info>  [1587601678.6521] devices added (path: /sys/devices/pci0000:00/0000:00:02.3/0000:01:00.0/net/enp1s0, iface: enp1s0)
+4月 23 08:27:58 alex-pc NetworkManager[759]: <info>  [1587601678.6522] device added (path: /sys/devices/pci0000:00/0000:00:02.3/0000:01:00.0/net/enp1s0, iface: enp1s0): no ifupdown configuration found.
+4月 23 08:27:58 alex-pc NetworkManager[759]: <info>  [1587601678.6523] devices added (path: /sys/devices/pci0000:00/0000:00:12.0/usb1/1-1/1-1.4/1-1.4:1.0/net/wlx503eaa82501a, iface: wlx503eaa82501a)
+4月 23 08:27:58 alex-pc NetworkManager[759]: <info>  [1587601678.6523] device added (path: /sys/devices/pci0000:00/0000:00:12.0/usb1/1-1/1-1.4/1-1.4:1.0/net/wlx503eaa82501a, iface: wlx503eaa82501a): no ifupdown configuration found.
+4月 23 08:27:58 alex-pc NetworkManager[759]: <info>  [1587601678.6524] devices added (path: /sys/devices/virtual/net/lo, iface: lo)
+4月 23 08:27:58 alex-pc NetworkManager[759]: <info>  [1587601678.6524] device added (path: /sys/devices/virtual/net/lo, iface: lo): no ifupdown configuration found.
+4月 23 08:27:58 alex-pc NetworkManager[759]: <info>  [1587601678.6524] end _init.
+4月 23 08:27:58 alex-pc NetworkManager[759]: <info>  [1587601678.6525] settings: loaded plugin ifupdown: (C) 2008 Canonical Ltd.  To report bugs please use the NetworkManager mailing list. (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-settings-plugin-ifupdown.so)
+4月 23 08:27:58 alex-pc sshd[837]: Server listening on 0.0.0.0 port 22.
+4月 23 08:27:58 alex-pc NetworkManager[759]: <info>  [1587601678.6527] settings: loaded plugin keyfile: (c) 2007 - 2016 Red Hat, Inc.  To report bugs please use the NetworkManager mailing list.
+4月 23 08:27:58 alex-pc sshd[837]: Server listening on :: port 22.
+4月 23 08:27:58 alex-pc NetworkManager[759]: <info>  [1587601678.6527] (1887988928) ... get_connections.
+4月 23 08:27:58 alex-pc NetworkManager[759]: <info>  [1587601678.6527] (1887988928) ... get_connections (managed=false): return empty list.
+4月 23 08:27:58 alex-pc systemd[1]: Starting Simple Desktop Display Manager...
+4月 23 08:27:58 alex-pc systemd[1]: Started OpenBSD Secure Shell server.
+4月 23 08:27:58 alex-pc systemd[1]: Started Simple Desktop Display Manager.
+4月 23 08:27:58 alex-pc systemd[1]: Started Disk Manager.
+4月 23 08:27:58 alex-pc udisksd[725]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+4月 23 08:27:58 alex-pc NetworkManager[759]: <info>  [1587601678.6874] keyfile: new connection /etc/NetworkManager/system-connections/ziroom501-c2cdc4f8-d52e-4d3e-8dae-538f4f965818 (c2cdc4f8-d52e-4d3e-8dae-538f4f965818,"ziroom501")
+4月 23 08:27:58 alex-pc NetworkManager[759]: <info>  [1587601678.7164] keyfile: new connection /etc/NetworkManager/system-connections/ziroom501-73b64cf9-a90c-4a8b-a97e-bc30895b9ab7 (73b64cf9-a90c-4a8b-a97e-bc30895b9ab7,"ziroom501")
+4月 23 08:27:58 alex-pc NetworkManager[759]: <info>  [1587601678.7453] keyfile: new connection /etc/NetworkManager/system-connections/ziroom501 (75eae200-177d-49b2-bacd-cc80b84bab56,"ziroom501")
+4月 23 08:27:58 alex-pc sddm[840]: Initializing...
+4月 23 08:27:58 alex-pc grub-common[761]:    ...done.
+4月 23 08:27:58 alex-pc systemd[1]: Started LSB: Record successful boot for GRUB.
+4月 23 08:27:58 alex-pc avahi-daemon[724]: Server startup complete. Host name is alex-pc.local. Local service cookie is 2592589060.
+4月 23 08:27:58 alex-pc NetworkManager[759]: <info>  [1587601678.7740] keyfile: new connection /etc/NetworkManager/system-connections/ziroom502 (4b574e6d-dbeb-403a-af20-419e32af3f6f,"ziroom502")
+4月 23 08:27:58 alex-pc sddm[840]: Logind interface found
+4月 23 08:27:58 alex-pc sddm[840]: Starting...
+4月 23 08:27:58 alex-pc sddm[840]: Adding new display on vt 1 ...
+4月 23 08:27:58 alex-pc sddm[840]: Loading theme configuration from ""
+4月 23 08:27:58 alex-pc sddm[840]: Display server starting...
+4月 23 08:27:58 alex-pc sddm[840]: Running: /usr/bin/X -nolisten tcp -auth /var/run/sddm/{2ad3ff3c-d76c-48c2-b5b4-02ae95527f7b} -background none -noreset -displayfd 18 -seat seat0 vt1
+4月 23 08:27:58 alex-pc NetworkManager[759]: <info>  [1587601678.8086] keyfile: new connection /etc/NetworkManager/system-connections/Mi Phone-24405963-ac54-4065-8561-e28e6f216f3d (24405963-ac54-4065-8561-e28e6f216f3d,"Mi Phone")
+4月 23 08:27:58 alex-pc NetworkManager[759]: <info>  [1587601678.9268] keyfile: new connection /etc/NetworkManager/system-connections/Mi Phone (9b696bb4-b60c-431b-a8e0-fd94752dedd2,"Mi Phone")
+4月 23 08:27:59 alex-pc NetworkManager[759]: <info>  [1587601679.2247] keyfile: new connection /etc/NetworkManager/system-connections/SeesawCoffee (13b5da85-65ad-4987-bc6b-f118c2014dcc,"SeesawCoffee")
+4月 23 08:27:59 alex-pc apachectl[812]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+4月 23 08:27:59 alex-pc systemd[1]: Started The Apache HTTP Server.
+4月 23 08:27:59 alex-pc NetworkManager[759]: <info>  [1587601679.2761] get unmanaged devices count: 0
+4月 23 08:27:59 alex-pc NetworkManager[759]: <info>  [1587601679.2762] manager: rfkill: WiFi enabled by radio killswitch; enabled by state file
+4月 23 08:27:59 alex-pc NetworkManager[759]: <info>  [1587601679.2763] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+4月 23 08:27:59 alex-pc NetworkManager[759]: <info>  [1587601679.2763] manager: Networking is enabled by state file
+4月 23 08:27:59 alex-pc NetworkManager[759]: <info>  [1587601679.2766] dhcp-init: Using DHCP client 'dhclient'
+4月 23 08:27:59 alex-pc nm-dispatcher[826]: req:1 'hostname': new request (1 scripts)
+4月 23 08:27:59 alex-pc nm-dispatcher[826]: req:1 'hostname': start running ordered scripts...
+4月 23 08:27:59 alex-pc NetworkManager[759]: <info>  [1587601679.2922] Loaded device plugin: NMBondDeviceFactory (internal)
+4月 23 08:27:59 alex-pc NetworkManager[759]: <info>  [1587601679.2923] Loaded device plugin: NMBridgeDeviceFactory (internal)
+4月 23 08:27:59 alex-pc NetworkManager[759]: <info>  [1587601679.2923] Loaded device plugin: NMDummyDeviceFactory (internal)
+4月 23 08:27:59 alex-pc NetworkManager[759]: <info>  [1587601679.2923] Loaded device plugin: NMEthernetDeviceFactory (internal)
+4月 23 08:27:59 alex-pc NetworkManager[759]: <info>  [1587601679.2924] Loaded device plugin: NMInfinibandDeviceFactory (internal)
+4月 23 08:27:59 alex-pc NetworkManager[759]: <info>  [1587601679.2924] Loaded device plugin: NMIPTunnelDeviceFactory (internal)
+4月 23 08:27:59 alex-pc NetworkManager[759]: <info>  [1587601679.2924] Loaded device plugin: NMMacsecDeviceFactory (internal)
+4月 23 08:27:59 alex-pc NetworkManager[759]: <info>  [1587601679.2925] Loaded device plugin: NMMacvlanDeviceFactory (internal)
+4月 23 08:27:59 alex-pc NetworkManager[759]: <info>  [1587601679.2925] Loaded device plugin: NMPppDeviceFactory (internal)
+4月 23 08:27:59 alex-pc NetworkManager[759]: <info>  [1587601679.2925] Loaded device plugin: NMTunDeviceFactory (internal)
+4月 23 08:27:59 alex-pc NetworkManager[759]: <info>  [1587601679.2925] Loaded device plugin: NMVethDeviceFactory (internal)
+4月 23 08:27:59 alex-pc NetworkManager[759]: <info>  [1587601679.2926] Loaded device plugin: NMVlanDeviceFactory (internal)
+4月 23 08:27:59 alex-pc NetworkManager[759]: <info>  [1587601679.2926] Loaded device plugin: NMVxlanDeviceFactory (internal)
+4月 23 08:27:59 alex-pc NetworkManager[759]: <info>  [1587601679.3039] Loaded device plugin: NMWifiFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-wifi.so)
+4月 23 08:27:59 alex-pc NetworkManager[759]: <info>  [1587601679.3590] Loaded device plugin: NMBluezManager (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-bluetooth.so)
+4月 23 08:27:59 alex-pc NetworkManager[759]: <info>  [1587601679.3595] Loaded device plugin: NMWwanFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-wwan.so)
+4月 23 08:27:59 alex-pc NetworkManager[759]: <info>  [1587601679.3600] Loaded device plugin: NMAtmManager (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-adsl.so)
+4月 23 08:27:59 alex-pc NetworkManager[759]: <info>  [1587601679.3668] Loaded device plugin: NMTeamFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-team.so)
+4月 23 08:27:59 alex-pc NetworkManager[759]: <info>  [1587601679.3692] device (lo): carrier: link connected
+4月 23 08:27:59 alex-pc NetworkManager[759]: <info>  [1587601679.3705] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+4月 23 08:27:59 alex-pc NetworkManager[759]: <info>  [1587601679.3730] manager: (enp1s0): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+4月 23 08:27:59 alex-pc NetworkManager[759]: <info>  [1587601679.3751] keyfile: add connection in-memory (1f481e0f-01ba-3288-8ed3-5c360b094664,"Wired connection 1")
+4月 23 08:27:59 alex-pc NetworkManager[759]: <info>  [1587601679.3759] settings: (enp1s0): created default wired connection 'Wired connection 1'
+4月 23 08:27:59 alex-pc NetworkManager[759]: <info>  [1587601679.3777] device (enp1s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+4月 23 08:27:59 alex-pc kernel: IPv6: ADDRCONF(NETDEV_UP): enp1s0: link is not ready
+4月 23 08:27:59 alex-pc kernel: r8169 0000:01:00.0 enp1s0: link down
+4月 23 08:27:59 alex-pc kernel: IPv6: ADDRCONF(NETDEV_UP): enp1s0: link is not ready
+4月 23 08:27:59 alex-pc NetworkManager[759]: <info>  [1587601679.5260] wifi-wext: (wlx503eaa82501a): driver supports SSID scans (scan_capa 0x3F).
+4月 23 08:27:59 alex-pc NetworkManager[759]: <info>  [1587601679.5261] wifi-wext: (wlx503eaa82501a): using WEXT for WiFi device control
+4月 23 08:27:59 alex-pc NetworkManager[759]: <info>  [1587601679.5285] manager: (wlx503eaa82501a): new 802.11 WiFi device (/org/freedesktop/NetworkManager/Devices/3)
+4月 23 08:27:59 alex-pc NetworkManager[759]: <info>  [1587601679.5302] device (wlx503eaa82501a): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+4月 23 08:27:59 alex-pc kernel: IPv6: ADDRCONF(NETDEV_UP): wlx503eaa82501a: link is not ready
+4月 23 08:27:59 alex-pc mysqld[945]: 2020-04-23  8:27:59 140076264832128 [Note] /usr/sbin/mysqld (mysqld 10.1.29-MariaDB-6) starting as process 945 ...
+4月 23 08:27:59 alex-pc ureadahead[339]: ureadahead:/usr/share/dbus-1/services/org.freedesktop.impl.portal.desktop.kde.service: No such file or directory
+4月 23 08:27:59 alex-pc ureadahead[339]: ureadahead:/var/lib/NetworkManager/dhclient-enp1s0.conf: No such file or directory
+4月 23 08:28:00 alex-pc kernel: MAC Address = 50:3e:aa:82:50:1a
+4月 23 08:28:00 alex-pc NetworkManager[759]: <warn>  [1587601680.2821] Error: failed to open /run/network/ifstate
+4月 23 08:28:00 alex-pc kernel: IPv6: ADDRCONF(NETDEV_UP): wlx503eaa82501a: link is not ready
+4月 23 08:28:00 alex-pc NetworkManager[759]: <info>  [1587601680.2928] bluez: use BlueZ version 5
+4月 23 08:28:00 alex-pc NetworkManager[759]: <info>  [1587601680.3097] modem-manager: ModemManager available
+4月 23 08:28:00 alex-pc NetworkManager[759]: <info>  [1587601680.3246] supplicant: wpa_supplicant running
+4月 23 08:28:00 alex-pc NetworkManager[759]: <info>  [1587601680.3247] device (wlx503eaa82501a): supplicant interface state: init -> starting
+4月 23 08:28:00 alex-pc NetworkManager[759]: <info>  [1587601680.3268] bluez5: NAP: added interface 00:08:CA:89:64:D9
+4月 23 08:28:00 alex-pc wpa_supplicant[730]: nl80211: Driver does not support authentication/association or connect commands
+4月 23 08:28:00 alex-pc wpa_supplicant[730]: nl80211: deinit ifname=wlx503eaa82501a disabled_11b_rates=0
+4月 23 08:28:00 alex-pc wpa_supplicant[730]: rfkill: Cannot get wiphy information
+4月 23 08:28:00 alex-pc wpa_supplicant[730]: ioctl[SIOCSIWAP]: Operation not permitted
+4月 23 08:28:00 alex-pc sddm[840]: Setting default cursor
+4月 23 08:28:00 alex-pc wpa_supplicant[730]: ioctl[SIOCSIWENCODEEXT]: Invalid argument
+4月 23 08:28:00 alex-pc wpa_supplicant[730]: ioctl[SIOCSIWENCODEEXT]: Invalid argument
+4月 23 08:28:00 alex-pc sddm[840]: Running display setup script  "/usr/share/sddm/scripts/Xsetup"
+4月 23 08:28:00 alex-pc sddm[840]: Display server started.
+4月 23 08:28:00 alex-pc sddm[840]: Reading from "/usr/share/xsessions/Lubuntu.desktop"
+4月 23 08:28:00 alex-pc sddm[840]: Reading from "/usr/share/xsessions/Lubuntu.desktop"
+4月 23 08:28:00 alex-pc sddm[840]: Session "Lubuntu.desktop" selected, command: "/usr/bin/lxsession -s Lubuntu -e LXDE"
+4月 23 08:28:00 alex-pc sddm[840]: Adding cookie to "/var/run/sddm/{2ad3ff3c-d76c-48c2-b5b4-02ae95527f7b}"
+4月 23 08:28:00 alex-pc sddm-helper[976]: [PAM] Starting...
+4月 23 08:28:00 alex-pc sddm-helper[976]: [PAM] Authenticating...
+4月 23 08:28:00 alex-pc sddm-helper[976]: [PAM] returning.
+4月 23 08:28:00 alex-pc sddm[840]: Authenticated successfully
+4月 23 08:28:00 alex-pc sddm-helper[976]: pam_unix(sddm-autologin:session): session opened for user alex by (uid=0)
+4月 23 08:28:00 alex-pc wpa_supplicant[730]: dbus: fill_dict_with_properties dbus_interface=fi.w1.wpa_supplicant1.Interface dbus_property=Stations getter failed
+4月 23 08:28:00 alex-pc wpa_supplicant[730]: dbus: wpa_dbus_get_object_properties: failed to get object properties: (none) none
+4月 23 08:28:00 alex-pc wpa_supplicant[730]: dbus: Failed to construct signal
+4月 23 08:28:00 alex-pc wpa_supplicant[730]: dbus: fill_dict_with_properties dbus_interface=fi.w1.wpa_supplicant1.Interface dbus_property=Stations getter failed
+4月 23 08:28:00 alex-pc NetworkManager[759]: <info>  [1587601680.4313] device (wlx503eaa82501a): supplicant interface state: starting -> ready
+4月 23 08:28:00 alex-pc NetworkManager[759]: <info>  [1587601680.4314] device (wlx503eaa82501a): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+4月 23 08:28:00 alex-pc kernel: IPv6: ADDRCONF(NETDEV_UP): wlx503eaa82501a: link is not ready
+4月 23 08:28:00 alex-pc systemd[1]: Created slice User Slice of alex.
+4月 23 08:28:00 alex-pc systemd[1]: Starting User Manager for UID 1000...
+4月 23 08:28:00 alex-pc systemd-logind[744]: New session 1 of user alex.
+4月 23 08:28:00 alex-pc systemd[979]: pam_unix(systemd-user:session): session opened for user alex by (uid=0)
+4月 23 08:28:00 alex-pc systemd[1]: Started Session 1 of user alex.
+4月 23 08:28:00 alex-pc systemd[979]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+4月 23 08:28:00 alex-pc systemd[979]: Listening on GnuPG network certificate management daemon.
+4月 23 08:28:00 alex-pc systemd[979]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+4月 23 08:28:00 alex-pc systemd[979]: Listening on GnuPG cryptographic agent and passphrase cache.
+4月 23 08:28:00 alex-pc systemd[979]: Reached target Timers.
+4月 23 08:28:00 alex-pc systemd[979]: Starting D-Bus User Message Bus Socket.
+4月 23 08:28:00 alex-pc systemd[979]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+4月 23 08:28:00 alex-pc systemd[979]: Reached target Paths.
+4月 23 08:28:00 alex-pc systemd[979]: Listening on D-Bus User Message Bus Socket.
+4月 23 08:28:00 alex-pc systemd[979]: Reached target Sockets.
+4月 23 08:28:00 alex-pc systemd[979]: Reached target Basic System.
+4月 23 08:28:00 alex-pc systemd[979]: Reached target Default.
+4月 23 08:28:00 alex-pc systemd[979]: Startup finished in 289ms.
+4月 23 08:28:00 alex-pc systemd[1]: Started User Manager for UID 1000.
+4月 23 08:28:00 alex-pc sddm-helper[976]: Starting: "/etc/sddm/Xsession \"/usr/bin/lxsession -s Lubuntu -e LXDE\""
+4月 23 08:28:00 alex-pc sddm-helper[1003]: Adding cookie to "/home/alex/.Xauthority"
+4月 23 08:28:00 alex-pc sddm[840]: Session started
+4月 23 08:28:00 alex-pc ModemManager[747]: <info>  Couldn't check support for device at '/sys/devices/pci0000:00/0000:00:02.3/0000:01:00.0': not supported by any plugin
+4月 23 08:28:00 alex-pc ModemManager[747]: <info>  Couldn't check support for device at '/sys/devices/pci0000:00/0000:00:12.0/usb1/1-1/1-1.4': not supported by any plugin
+4月 23 08:28:00 alex-pc systemd[979]: Started D-Bus User Message Bus.
+4月 23 08:28:01 alex-pc dbus-daemon[1051]: [session uid=1000 pid=1051] AppArmor D-Bus mediation is enabled
+4月 23 08:28:01 alex-pc /etc/mysql/debian-start[1062]: Upgrading MySQL tables if necessary.
+4月 23 08:28:01 alex-pc systemd[1]: Started MariaDB database server.
+4月 23 08:28:01 alex-pc /etc/mysql/debian-start[1067]: /usr/bin/mysql_upgrade: the '--basedir' option is always ignored
+4月 23 08:28:01 alex-pc /etc/mysql/debian-start[1067]: Looking for 'mysql' as: /usr/bin/mysql
+4月 23 08:28:01 alex-pc /etc/mysql/debian-start[1067]: Looking for 'mysqlcheck' as: /usr/bin/mysqlcheck
+4月 23 08:28:01 alex-pc /etc/mysql/debian-start[1067]: This installation of MySQL is already upgraded to 10.1.29-MariaDB, use --force if you still need to run mysql_upgrade
+4月 23 08:28:01 alex-pc /etc/mysql/debian-start[1076]: Checking for insecure root accounts.
+4月 23 08:28:01 alex-pc /etc/mysql/debian-start[1083]: Triggering myisam-recover for all MyISAM tables and aria-recover for all Aria tables
+4月 23 08:28:01 alex-pc dbus-daemon[1051]: [session uid=1000 pid=1051] Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service' requested by ':1.4' (uid=1000 pid=1003 comm="/usr/bin/lxsession -s Lubuntu -e LXDE " label="unconfined")
+4月 23 08:28:01 alex-pc systemd[979]: Starting Virtual filesystem service...
+4月 23 08:28:01 alex-pc systemd[979]: Started Virtual filesystem service.
+4月 23 08:28:01 alex-pc dbus-daemon[1051]: [session uid=1000 pid=1051] Successfully activated service 'org.gtk.vfs.Daemon'
+4月 23 08:28:01 alex-pc NetworkManager[759]: <info>  [1587601681.7507] device (wlx503eaa82501a): supplicant interface state: ready -> inactive
+4月 23 08:28:01 alex-pc NetworkManager[759]: <info>  [1587601681.7942] policy: auto-activating connection 'ziroom501'
+4月 23 08:28:01 alex-pc NetworkManager[759]: <info>  [1587601681.7985] device (wlx503eaa82501a): Activation: starting connection 'ziroom501' (c2cdc4f8-d52e-4d3e-8dae-538f4f965818)
+4月 23 08:28:01 alex-pc NetworkManager[759]: <info>  [1587601681.7996] device (wlx503eaa82501a): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+4月 23 08:28:01 alex-pc NetworkManager[759]: <info>  [1587601681.8005] manager: NetworkManager state is now CONNECTING
+4月 23 08:28:01 alex-pc NetworkManager[759]: <info>  [1587601681.8018] device (wlx503eaa82501a): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+4月 23 08:28:01 alex-pc NetworkManager[759]: <info>  [1587601681.8030] device (wlx503eaa82501a): Activation: (wifi) access point 'ziroom501' has security, but secrets are required.
+4月 23 08:28:01 alex-pc NetworkManager[759]: <info>  [1587601681.8035] device (wlx503eaa82501a): state change: config -> need-auth (reason 'none', sys-iface-state: 'managed')
+4月 23 08:28:01 alex-pc NetworkManager[759]: <info>  [1587601681.8106] device (wlx503eaa82501a): state change: need-auth -> prepare (reason 'none', sys-iface-state: 'managed')
+4月 23 08:28:01 alex-pc NetworkManager[759]: <info>  [1587601681.8113] device (wlx503eaa82501a): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+4月 23 08:28:01 alex-pc NetworkManager[759]: <info>  [1587601681.8122] device (wlx503eaa82501a): Activation: (wifi) connection 'ziroom501' has security, and secrets exist.  No new secrets needed.
+4月 23 08:28:01 alex-pc NetworkManager[759]: <error> [1587601681.8128] wifi-wext: (wlx503eaa82501a): error setting powersave 0
+4月 23 08:28:01 alex-pc NetworkManager[759]: <info>  [1587601681.8132] Config: added 'ssid' value 'ziroom501'
+4月 23 08:28:01 alex-pc NetworkManager[759]: <info>  [1587601681.8135] Config: added 'scan_ssid' value '1'
+4月 23 08:28:01 alex-pc NetworkManager[759]: <info>  [1587601681.8135] Config: added 'bgscan' value 'simple:30:-80:86400'
+4月 23 08:28:01 alex-pc NetworkManager[759]: <info>  [1587601681.8136] Config: added 'key_mgmt' value 'WPA-PSK'
+4月 23 08:28:01 alex-pc NetworkManager[759]: <info>  [1587601681.8136] Config: added 'auth_alg' value 'OPEN'
+4月 23 08:28:01 alex-pc NetworkManager[759]: <info>  [1587601681.8137] Config: added 'psk' value '<hidden>'
+4月 23 08:28:02 alex-pc dbus-daemon[1051]: [session uid=1000 pid=1051] Activating via systemd: service name='org.a11y.Bus' unit='at-spi-dbus-bus.service' requested by ':1.10' (uid=1000 pid=1027 comm="gedit /home/alex/Documents/WORK/plan.txt " label="unconfined")
+4月 23 08:28:02 alex-pc systemd[979]: Starting Accessibility services bus...
+4月 23 08:28:02 alex-pc dbus-daemon[1051]: [session uid=1000 pid=1051] Successfully activated service 'org.a11y.Bus'
+4月 23 08:28:02 alex-pc systemd[979]: Started Accessibility services bus.
+4月 23 08:28:02 alex-pc at-spi-bus-launcher[1218]: dbus-daemon[1223]: Activating service name='org.a11y.atspi.Registry' requested by ':1.0' (uid=1000 pid=1027 comm="gedit /home/alex/Documents/WORK/plan.txt " label="unconfined")
+4月 23 08:28:02 alex-pc dbus-daemon[1051]: [session uid=1000 pid=1051] Activating service name='ca.desrt.dconf' requested by ':1.8' (uid=1000 pid=1027 comm="gedit /home/alex/Documents/WORK/plan.txt " label="unconfined")
+4月 23 08:28:02 alex-pc dbus-daemon[1051]: [session uid=1000 pid=1051] Successfully activated service 'ca.desrt.dconf'
+4月 23 08:28:02 alex-pc spice-vdagent[1205]: Cannot access vdagent virtio channel /dev/virtio-ports/com.redhat.spice.0
+4月 23 08:28:02 alex-pc at-spi-bus-launcher[1218]: dbus-daemon[1223]: Successfully activated service 'org.a11y.atspi.Registry'
+4月 23 08:28:02 alex-pc at-spi-bus-launcher[1218]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+4月 23 08:28:02 alex-pc dbus-daemon[1051]: [session uid=1000 pid=1051] Activating via systemd: service name='org.gtk.vfs.UDisks2VolumeMonitor' unit='gvfs-udisks2-volume-monitor.service' requested by ':1.7' (uid=1000 pid=1159 comm="pcmanfm --desktop --profile lubuntu " label="unconfined")
+4月 23 08:28:02 alex-pc systemd[979]: Starting Virtual filesystem service - disk device monitor...
+4月 23 08:28:02 alex-pc dbus-daemon[1051]: [session uid=1000 pid=1051] Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+4月 23 08:28:02 alex-pc systemd[979]: Started Virtual filesystem service - disk device monitor.
+4月 23 08:28:02 alex-pc dbus-daemon[1051]: [session uid=1000 pid=1051] Activating via systemd: service name='org.gtk.vfs.GPhoto2VolumeMonitor' unit='gvfs-gphoto2-volume-monitor.service' requested by ':1.7' (uid=1000 pid=1159 comm="pcmanfm --desktop --profile lubuntu " label="unconfined")
+4月 23 08:28:02 alex-pc systemd[979]: Starting Virtual filesystem service - digital camera monitor...
+4月 23 08:28:02 alex-pc dbus-daemon[1051]: [session uid=1000 pid=1051] Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+4月 23 08:28:02 alex-pc systemd[979]: Started Virtual filesystem service - digital camera monitor.
+4月 23 08:28:02 alex-pc dbus-daemon[1051]: [session uid=1000 pid=1051] Activating via systemd: service name='org.gtk.vfs.MTPVolumeMonitor' unit='gvfs-mtp-volume-monitor.service' requested by ':1.7' (uid=1000 pid=1159 comm="pcmanfm --desktop --profile lubuntu " label="unconfined")
+4月 23 08:28:02 alex-pc systemd[979]: Starting Virtual filesystem service - Media Transfer Protocol monitor...
+4月 23 08:28:02 alex-pc dbus-daemon[1051]: [session uid=1000 pid=1051] Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+4月 23 08:28:02 alex-pc systemd[979]: Started Virtual filesystem service - Media Transfer Protocol monitor.
+4月 23 08:28:02 alex-pc dbus-daemon[1051]: [session uid=1000 pid=1051] Activating via systemd: service name='org.gtk.vfs.GoaVolumeMonitor' unit='gvfs-goa-volume-monitor.service' requested by ':1.7' (uid=1000 pid=1159 comm="pcmanfm --desktop --profile lubuntu " label="unconfined")
+4月 23 08:28:02 alex-pc systemd[979]: Starting Virtual filesystem service - GNOME Online Accounts monitor...
+4月 23 08:28:02 alex-pc dbus-daemon[1051]: [session uid=1000 pid=1051] Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+4月 23 08:28:02 alex-pc systemd[979]: Started Virtual filesystem service - GNOME Online Accounts monitor.
+4月 23 08:28:02 alex-pc dbus-daemon[1051]: [session uid=1000 pid=1051] Activating via systemd: service name='org.gtk.vfs.AfcVolumeMonitor' unit='gvfs-afc-volume-monitor.service' requested by ':1.7' (uid=1000 pid=1159 comm="pcmanfm --desktop --profile lubuntu " label="unconfined")
+4月 23 08:28:02 alex-pc systemd[979]: Starting Virtual filesystem service - Apple File Conduit monitor...
+4月 23 08:28:02 alex-pc gvfs-afc-volume-monitor[1302]: Volume monitor alive
+4月 23 08:28:02 alex-pc dbus-daemon[1051]: [session uid=1000 pid=1051] Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+4月 23 08:28:02 alex-pc systemd[979]: Started Virtual filesystem service - Apple File Conduit monitor.
+4月 23 08:28:03 alex-pc set-cpufreq[743]: Setting ondemand scheduler for all CPUs
+4月 23 08:28:03 alex-pc wpa_supplicant[730]: wlx503eaa82501a: Trying to associate with d4:ee:07:60:27:14 (SSID='ziroom501' freq=2452 MHz)
+4月 23 08:28:03 alex-pc wpa_supplicant[730]: wlx503eaa82501a: Association request to the driver failed
+4月 23 08:28:03 alex-pc NetworkManager[759]: <info>  [1587601683.1303] device (wlx503eaa82501a): supplicant interface state: inactive -> associating
+4月 23 08:28:03 alex-pc kernel: R8188EU: assoc success
+4月 23 08:28:03 alex-pc wpa_supplicant[730]: wlx503eaa82501a: Associated with d4:ee:07:60:27:14
+4月 23 08:28:03 alex-pc NetworkManager[759]: <info>  [1587601683.2520] device (wlx503eaa82501a): supplicant interface state: associating -> associated
+4月 23 08:28:03 alex-pc wpa_supplicant[730]: wlx503eaa82501a: WPA: Key negotiation completed with d4:ee:07:60:27:14 [PTK=CCMP GTK=CCMP]
+4月 23 08:28:03 alex-pc kernel: IPv6: ADDRCONF(NETDEV_CHANGE): wlx503eaa82501a: link becomes ready
+4月 23 08:28:03 alex-pc wpa_supplicant[730]: wlx503eaa82501a: CTRL-EVENT-CONNECTED - Connection to d4:ee:07:60:27:14 completed [id=0 id_str=]
+4月 23 08:28:03 alex-pc wpa_supplicant[730]: bgscan simple: Failed to enable signal strength monitoring
+4月 23 08:28:03 alex-pc NetworkManager[759]: <info>  [1587601683.3549] device (wlx503eaa82501a): supplicant interface state: associated -> completed
+4月 23 08:28:03 alex-pc NetworkManager[759]: <info>  [1587601683.3550] device (wlx503eaa82501a): Activation: (wifi) Stage 2 of 5 (Device Configure) successful.  Connected to wireless network 'ziroom501'.
+4月 23 08:28:03 alex-pc NetworkManager[759]: <info>  [1587601683.3555] device (wlx503eaa82501a): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+4月 23 08:28:03 alex-pc NetworkManager[759]: <info>  [1587601683.3641] dhcp4 (wlx503eaa82501a): activation: beginning transaction (timeout in 45 seconds)
+4月 23 08:28:03 alex-pc NetworkManager[759]: <info>  [1587601683.3830] dhcp4 (wlx503eaa82501a): dhclient started with pid 1321
+4月 23 08:28:03 alex-pc avahi-daemon[724]: Joining mDNS multicast group on interface wlx503eaa82501a.IPv6 with address fe80::abea:9c85:12dc:e77e.
+4月 23 08:28:03 alex-pc avahi-daemon[724]: New relevant interface wlx503eaa82501a.IPv6 for mDNS.
+4月 23 08:28:03 alex-pc avahi-daemon[724]: Registering new address record for fe80::abea:9c85:12dc:e77e on wlx503eaa82501a.*.
+4月 23 08:28:03 alex-pc dhclient[1321]: DHCPREQUEST of 192.168.199.156 on wlx503eaa82501a to 255.255.255.255 port 67 (xid=0x6d57df59)
+4月 23 08:28:03 alex-pc dhclient[1321]: DHCPACK of 192.168.199.156 from 192.168.199.1
+4月 23 08:28:03 alex-pc NetworkManager[759]: <info>  [1587601683.4603] dhcp4 (wlx503eaa82501a):   address 192.168.199.156
+4月 23 08:28:03 alex-pc NetworkManager[759]: <info>  [1587601683.4604] dhcp4 (wlx503eaa82501a):   plen 24 (255.255.255.0)
+4月 23 08:28:03 alex-pc NetworkManager[759]: <info>  [1587601683.4604] dhcp4 (wlx503eaa82501a):   gateway 192.168.199.1
+4月 23 08:28:03 alex-pc NetworkManager[759]: <info>  [1587601683.4605] dhcp4 (wlx503eaa82501a):   lease time 43200
+4月 23 08:28:03 alex-pc NetworkManager[759]: <info>  [1587601683.4605] dhcp4 (wlx503eaa82501a):   hostname 'alex-pc'
+4月 23 08:28:03 alex-pc NetworkManager[759]: <info>  [1587601683.4605] dhcp4 (wlx503eaa82501a):   nameserver '192.168.199.1'
+4月 23 08:28:03 alex-pc NetworkManager[759]: <info>  [1587601683.4606] dhcp4 (wlx503eaa82501a):   domain name 'lan'
+4月 23 08:28:03 alex-pc NetworkManager[759]: <info>  [1587601683.4606] dhcp4 (wlx503eaa82501a): state changed unknown -> bound
+4月 23 08:28:03 alex-pc avahi-daemon[724]: Joining mDNS multicast group on interface wlx503eaa82501a.IPv4 with address 192.168.199.156.
+4月 23 08:28:03 alex-pc avahi-daemon[724]: New relevant interface wlx503eaa82501a.IPv4 for mDNS.
+4月 23 08:28:03 alex-pc avahi-daemon[724]: Registering new address record for 192.168.199.156 on wlx503eaa82501a.IPv4.
+4月 23 08:28:03 alex-pc NetworkManager[759]: <info>  [1587601683.4643] device (wlx503eaa82501a): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+4月 23 08:28:03 alex-pc NetworkManager[759]: <info>  [1587601683.4665] device (wlx503eaa82501a): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+4月 23 08:28:03 alex-pc NetworkManager[759]: <info>  [1587601683.4672] device (wlx503eaa82501a): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+4月 23 08:28:03 alex-pc NetworkManager[759]: <info>  [1587601683.4677] manager: NetworkManager state is now CONNECTED_LOCAL
+4月 23 08:28:03 alex-pc kernel: logitech-hidpp-device 0003:046D:1028.0004: HID++ 1.0 device connected.
+4月 23 08:28:03 alex-pc NetworkManager[759]: <info>  [1587601683.4753] manager: NetworkManager state is now CONNECTED_SITE
+4月 23 08:28:03 alex-pc NetworkManager[759]: <info>  [1587601683.4757] policy: set 'ziroom501' (wlx503eaa82501a) as default for IPv4 routing and DNS
+4月 23 08:28:03 alex-pc dhclient[1321]: bound to 192.168.199.156 -- renewal in 18909 seconds.
+4月 23 08:28:03 alex-pc NetworkManager[759]: <info>  [1587601683.4825] device (wlx503eaa82501a): Activation: successful, device activated.
+4月 23 08:28:03 alex-pc NetworkManager[759]: <info>  [1587601683.4860] manager: NetworkManager state is now CONNECTED_GLOBAL
+4月 23 08:28:03 alex-pc nm-dispatcher[826]: req:2 'up' [wlx503eaa82501a]: new request (1 scripts)
+4月 23 08:28:03 alex-pc nm-dispatcher[826]: req:2 'up' [wlx503eaa82501a]: start running ordered scripts...
+4月 23 08:28:03 alex-pc nm-dispatcher[826]: req:3 'connectivity-change': new request (1 scripts)
+4月 23 08:28:03 alex-pc systemd[1]: Reloading OpenBSD Secure Shell server.
+4月 23 08:28:03 alex-pc sshd[837]: Received SIGHUP; restarting.
+4月 23 08:28:03 alex-pc systemd[1]: Reloaded OpenBSD Secure Shell server.
+4月 23 08:28:03 alex-pc sshd[837]: Server listening on 0.0.0.0 port 22.
+4月 23 08:28:03 alex-pc sshd[837]: Server listening on :: port 22.
+4月 23 08:28:03 alex-pc systemd[1]: Reloading OpenBSD Secure Shell server.
+4月 23 08:28:03 alex-pc nm-dispatcher[826]: req:3 'connectivity-change': start running ordered scripts...
+4月 23 08:28:03 alex-pc systemd[1]: Reloaded OpenBSD Secure Shell server.
+4月 23 08:28:03 alex-pc sshd[837]: Received SIGHUP; restarting.
+4月 23 08:28:03 alex-pc sshd[837]: Server listening on 0.0.0.0 port 22.
+4月 23 08:28:03 alex-pc sshd[837]: Server listening on :: port 22.
+4月 23 08:28:05 alex-pc ureadahead[339]: ureadahead:/usr/share/applications/min.desktop: No such file or directory
+4月 23 08:28:05 alex-pc NetworkManager[759]: <info>  [1587601685.5225] manager: startup complete
+4月 23 08:28:05 alex-pc systemd[1]: Started Network Manager Wait Online.
+4月 23 08:28:05 alex-pc systemd[1]: Reached target Network is Online.
+4月 23 08:28:05 alex-pc systemd[1]: Started NordVPN Daemon.
+4月 23 08:28:05 alex-pc systemd[1]: Starting Tool to automatically collect and submit kernel crash signatures...
+4月 23 08:28:05 alex-pc systemd[1]: Started crash report submission daemon.
+4月 23 08:28:05 alex-pc systemd[1]: kerneloops.service: Found left-over process 1407 (kerneloops) in control group while starting unit. Ignoring.
+4月 23 08:28:05 alex-pc systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+4月 23 08:28:05 alex-pc systemd[1]: Started Tool to automatically collect and submit kernel crash signatures.
+4月 23 08:28:05 alex-pc systemd[1]: Reached target Multi-User System.
+4月 23 08:28:05 alex-pc systemd[1]: Reached target Graphical Interface.
+4月 23 08:28:05 alex-pc systemd[1]: Started Stop ureadahead data collection 45s after completed startup.
+4月 23 08:28:05 alex-pc systemd[1]: Starting Update UTMP about System Runlevel Changes...
+4月 23 08:28:05 alex-pc systemd[1]: Started Update UTMP about System Runlevel Changes.
+4月 23 08:28:05 alex-pc systemd[1]: Startup finished in 4.798s (firmware) + 4.435s (loader) + 10.167s (kernel) + 11.593s (userspace) = 30.995s.
+4月 23 08:28:05 alex-pc whoopsie[1406]: [08:28:05] Using lock path: /var/lock/whoopsie/lock
+4月 23 08:28:05 alex-pc systemd-resolved[660]: Using degraded feature set (UDP) for DNS server 192.168.199.1.
+4月 23 08:28:05 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/libffmpeg.so: No such file or directory
+4月 23 08:28:05 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/icudtl.dat: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/natives_blob.bin: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/v8_context_snapshot.bin: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/min: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/chrome_100_percent.pak: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/chrome_200_percent.pak: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/locales/en-US.pak: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources.pak: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/package.json: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/main.build.js: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/node_modules/regedit/package.json: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/node_modules/regedit/index.js: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/node_modules/regedit/node_modules/debug/package.json: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/node_modules/regedit/node_modules/debug/src/index.js: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/node_modules/regedit/node_modules/debug/src/node.js: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/node_modules/regedit/node_modules/debug/src/common.js: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/node_modules/regedit/node_modules/ms/package.json: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/node_modules/regedit/node_modules/ms/index.js: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/node_modules/regedit/errors.js: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/node_modules/stream-slicer/package.json: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/node_modules/stream-slicer/index.js: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/node_modules/regedit/node_modules/through2/package.json: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/node_modules/regedit/node_modules/through2/through2.js: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/node_modules/regedit/node_modules/readable-stream/transform.js: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/node_modules/regedit/node_modules/readable-stream/lib/_stream_transform.js: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/node_modules/regedit/node_modules/readable-stream/lib/_stream_duplex.js: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/node_modules/core-util-is/package.json: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/node_modules/core-util-is/lib/util.js: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/node_modules/inherits/package.json: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/node_modules/inherits/inherits.js: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/node_modules/regedit/node_modules/readable-stream/lib/_stream_readable.js: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/node_modules/regedit/node_modules/isarray/package.json: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/node_modules/regedit/node_modules/isarray/index.js: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/node_modules/regedit/node_modules/readable-stream/lib/_stream_writable.js: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/node_modules/xtend/package.json: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/node_modules/xtend/immutable.js: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/node_modules/regedit/lib/helper.js: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/node_modules/regedit/lib/execFile.js: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/node_modules/regedit/lib/cscript.js: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/node_modules/if-async/package.json: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/node_modules/if-async/index.js: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/ext/abp-filter-parser-modified/abp-filter-parser.js: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/ext/filterLists/easylist+easyprivacy-noelementhiding.txt: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/icons/icon256.png: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/index.html: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/css/findinpage.css: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/css/tabBar.css: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/css/base.css: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/css/taskOverlay.css: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/css/searchbar.css: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/css/bookmarkManager.css: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/css/windowsCaptionButtons.css: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/css/downloadManager.css: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/css/listItem.css: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/css/webviews.css: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/dist/bundle.js: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/ext/font-awesome-4.4.0/css/font-awesome.min.css: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/node_modules/dragula/dist/dragula.min.css: No such file or directory
+4月 23 08:28:06 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/js/places/placesWorker.js: No such file or directory
+4月 23 08:28:07 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/ext/font-awesome-4.4.0/fonts/fontawesome-webfont.woff2: No such file or directory
+4月 23 08:28:07 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/images/readerIcon.svg: No such file or directory
+4月 23 08:28:07 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/node_modules/dexie/dist/dexie.min.js: No such file or directory
+4月 23 08:28:07 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/node_modules/string_score/string_score.min.js: No such file or directory
+4月 23 08:28:07 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/js/util/database.js: No such file or directory
+4月 23 08:28:07 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/js/places/fullTextSearch.js: No such file or directory
+4月 23 08:28:07 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/ext/xregexp/nonLetterRegex.js: No such file or directory
+4月 23 08:28:07 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/js/places/placesSearch.js: No such file or directory
+4月 23 08:28:07 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/js/places/tagIndex.js: No such file or directory
+4月 23 08:28:07 alex-pc ureadahead[339]: ureadahead:/usr/lib/min/resources/app/dist/preload.js: No such file or directory
+4月 23 08:28:07 alex-pc ureadahead[339]: ureadahead:/var/lib/php/sessions/sess_0rumec9ev1sbstvpdvmjpqibh5: No such file or directory
+4月 23 08:28:10 alex-pc whoopsie[1406]: [08:28:10] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/1
+4月 23 08:28:10 alex-pc whoopsie[1406]: [08:28:10] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/1
+4月 23 08:28:10 alex-pc whoopsie[1406]: [08:28:10] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/1
+4月 23 08:28:28 alex-pc systemd-timesyncd[650]: Synchronized to time server 91.189.89.198:123 (ntp.ubuntu.com).
+4月 23 08:28:52 alex-pc systemd[1]: Starting Stop ureadahead data collection...
+4月 23 08:28:52 alex-pc systemd[1]: Started Stop ureadahead data collection.
+4月 23 08:35:42 alex-pc kernel: R8188EU: linked_status_chk(wlx503eaa82501a) disconnect or roaming
+4月 23 08:35:44 alex-pc kernel: R8188EU: assoc success
+4月 23 08:35:44 alex-pc wpa_supplicant[730]: wlx503eaa82501a: Associated with d4:ee:07:60:27:14
+4月 23 08:35:44 alex-pc NetworkManager[759]: <info>  [1587602144.8627] device (wlx503eaa82501a): supplicant interface state: completed -> associated
+4月 23 08:35:44 alex-pc wpa_supplicant[730]: wlx503eaa82501a: WPA: Key negotiation completed with d4:ee:07:60:27:14 [PTK=CCMP GTK=CCMP]
+4月 23 08:35:44 alex-pc wpa_supplicant[730]: wlx503eaa82501a: CTRL-EVENT-CONNECTED - Connection to d4:ee:07:60:27:14 completed [id=0 id_str=]
+4月 23 08:35:44 alex-pc NetworkManager[759]: <info>  [1587602144.9464] device (wlx503eaa82501a): supplicant interface state: associated -> 4-way handshake
+4月 23 08:35:44 alex-pc NetworkManager[759]: <info>  [1587602144.9508] device (wlx503eaa82501a): supplicant interface state: 4-way handshake -> completed
+4月 23 08:35:46 alex-pc systemd-resolved[660]: Using degraded feature set (UDP) for DNS server 192.168.199.1.
+4月 23 08:39:01 alex-pc CRON[2009]: pam_unix(cron:session): session opened for user root by (uid=0)
+4月 23 08:39:01 alex-pc CRON[2010]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+4月 23 08:39:01 alex-pc systemd[1]: Starting Clean php session files...
+4月 23 08:39:01 alex-pc CRON[2009]: pam_unix(cron:session): session closed for user root
+4月 23 08:39:02 alex-pc systemd[1]: Started Clean php session files.
+4月 23 08:43:03 alex-pc systemd[1]: Starting Cleanup of Temporary Directories...
+4月 23 08:43:03 alex-pc systemd[1]: Started Cleanup of Temporary Directories.
+4月 23 08:53:33 alex-pc kernel: R8188EU: linked_status_chk(wlx503eaa82501a) disconnect or roaming
+4月 23 08:53:36 alex-pc kernel: R8188EU: assoc success
+4月 23 08:53:36 alex-pc wpa_supplicant[730]: wlx503eaa82501a: Associated with d4:ee:07:60:27:14
+4月 23 08:53:36 alex-pc NetworkManager[759]: <info>  [1587603216.1618] device (wlx503eaa82501a): supplicant interface state: completed -> associated
+4月 23 08:53:36 alex-pc wpa_supplicant[730]: wlx503eaa82501a: WPA: Key negotiation completed with d4:ee:07:60:27:14 [PTK=CCMP GTK=CCMP]
+4月 23 08:53:36 alex-pc wpa_supplicant[730]: wlx503eaa82501a: CTRL-EVENT-CONNECTED - Connection to d4:ee:07:60:27:14 completed [id=0 id_str=]
+4月 23 08:53:36 alex-pc NetworkManager[759]: <info>  [1587603216.2384] device (wlx503eaa82501a): supplicant interface state: associated -> completed
+4月 23 08:53:36 alex-pc systemd-resolved[660]: Using degraded feature set (UDP) for DNS server 192.168.199.1.
+4月 23 08:54:19 alex-pc kernel: R8188EU: linked_status_chk(wlx503eaa82501a) disconnect or roaming
+4月 23 08:54:23 alex-pc kernel: R8188EU: assoc success
+4月 23 08:54:23 alex-pc wpa_supplicant[730]: wlx503eaa82501a: Associated with d4:ee:07:60:27:14
+4月 23 08:54:23 alex-pc NetworkManager[759]: <info>  [1587603263.7822] device (wlx503eaa82501a): supplicant interface state: completed -> associated
+4月 23 08:54:23 alex-pc wpa_supplicant[730]: wlx503eaa82501a: WPA: Key negotiation completed with d4:ee:07:60:27:14 [PTK=CCMP GTK=CCMP]
+4月 23 08:54:23 alex-pc wpa_supplicant[730]: wlx503eaa82501a: CTRL-EVENT-CONNECTED - Connection to d4:ee:07:60:27:14 completed [id=0 id_str=]
+4月 23 08:54:23 alex-pc NetworkManager[759]: <info>  [1587603263.8478] device (wlx503eaa82501a): supplicant interface state: associated -> completed
+4月 23 08:54:25 alex-pc systemd-resolved[660]: Using degraded feature set (UDP) for DNS server 192.168.199.1.
+4月 23 08:54:53 alex-pc kernel: R8188EU: linked_status_chk(wlx503eaa82501a) disconnect or roaming
+4月 23 08:54:56 alex-pc kernel: R8188EU: assoc success
+4月 23 08:54:56 alex-pc wpa_supplicant[730]: wlx503eaa82501a: Associated with d4:ee:07:60:27:14
+4月 23 08:54:56 alex-pc NetworkManager[759]: <info>  [1587603296.0342] device (wlx503eaa82501a): supplicant interface state: completed -> associated
+4月 23 08:54:56 alex-pc wpa_supplicant[730]: wlx503eaa82501a: WPA: Key negotiation completed with d4:ee:07:60:27:14 [PTK=CCMP GTK=CCMP]
+4月 23 08:54:56 alex-pc wpa_supplicant[730]: wlx503eaa82501a: CTRL-EVENT-CONNECTED - Connection to d4:ee:07:60:27:14 completed [id=0 id_str=]
+4月 23 08:54:56 alex-pc NetworkManager[759]: <info>  [1587603296.0979] device (wlx503eaa82501a): supplicant interface state: associated -> completed
+4月 23 08:54:57 alex-pc systemd-resolved[660]: Using degraded feature set (UDP) for DNS server 192.168.199.1.
+4月 23 08:55:28 alex-pc kernel: R8188EU: linked_status_chk(wlx503eaa82501a) disconnect or roaming
+4月 23 08:55:37 alex-pc kernel: R8188EU: assoc success
+4月 23 08:55:37 alex-pc wpa_supplicant[730]: wlx503eaa82501a: Associated with d4:ee:07:60:27:14
+4月 23 08:55:37 alex-pc NetworkManager[759]: <info>  [1587603337.8276] device (wlx503eaa82501a): supplicant interface state: completed -> associated
+4月 23 08:55:37 alex-pc wpa_supplicant[730]: wlx503eaa82501a: WPA: Key negotiation completed with d4:ee:07:60:27:14 [PTK=CCMP GTK=CCMP]
+4月 23 08:55:37 alex-pc wpa_supplicant[730]: wlx503eaa82501a: CTRL-EVENT-CONNECTED - Connection to d4:ee:07:60:27:14 completed [id=0 id_str=]
+4月 23 08:55:37 alex-pc NetworkManager[759]: <info>  [1587603337.8878] device (wlx503eaa82501a): supplicant interface state: associated -> 4-way handshake
+4月 23 08:55:37 alex-pc NetworkManager[759]: <info>  [1587603337.8935] device (wlx503eaa82501a): supplicant interface state: 4-way handshake -> completed
+4月 23 08:55:39 alex-pc systemd-resolved[660]: Using degraded feature set (UDP) for DNS server 192.168.199.1.
+4月 23 09:02:02 alex-pc systemd[1]: Starting Daily apt download activities...
+4月 23 09:04:04 alex-pc dbus-daemon[718]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.32' (uid=0 pid=2970 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+4月 23 09:04:04 alex-pc systemd[1]: Starting PackageKit Daemon...
+4月 23 09:04:04 alex-pc PackageKit[2973]: daemon start
+4月 23 09:04:04 alex-pc dbus-daemon[718]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+4月 23 09:04:04 alex-pc systemd[1]: Started PackageKit Daemon.
+4月 23 09:04:11 alex-pc kernel: do_trap: 12 callbacks suppressed
+4月 23 09:04:11 alex-pc kernel: traps: appstreamcli[2981] trap int3 ip:7f93a0281c41 sp:7ffc1420cb20 error:0 in libglib-2.0.so.0.5600.1[7f93a0230000+113000]
+4月 23 09:04:22 alex-pc systemd[1]: Started Daily apt download activities.
+4月 23 09:05:13 alex-pc systemd[1]: Started Run anacron jobs.
+4月 23 09:05:13 alex-pc anacron[3166]: Anacron 2.3 started on 2020-04-23
+4月 23 09:05:13 alex-pc anacron[3166]: Normal exit (0 jobs run)
+4月 23 09:09:01 alex-pc CRON[3202]: pam_unix(cron:session): session opened for user root by (uid=0)
+4月 23 09:09:01 alex-pc CRON[3203]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+4月 23 09:09:01 alex-pc systemd[1]: Starting Clean php session files...
+4月 23 09:09:01 alex-pc CRON[3202]: pam_unix(cron:session): session closed for user root
+4月 23 09:09:02 alex-pc systemd[1]: Started Clean php session files.
+4月 23 09:16:03 alex-pc systemd[1]: Starting Message of the Day...
+4月 23 09:16:23 alex-pc systemd[1]: Started Message of the Day.
+4月 23 09:17:01 alex-pc CRON[3405]: pam_unix(cron:session): session opened for user root by (uid=0)
+4月 23 09:17:01 alex-pc CRON[3406]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+4月 23 09:17:01 alex-pc CRON[3405]: pam_unix(cron:session): session closed for user root
+4月 23 09:29:30 alex-pc systemd-resolved[660]: Grace period over, resuming full feature set (UDP+EDNS0) for DNS server 192.168.199.1.
+4月 23 09:29:31 alex-pc systemd-resolved[660]: Using degraded feature set (UDP) for DNS server 192.168.199.1.
+4月 23 09:34:10 alex-pc kernel: R8188EU: linked_status_chk(wlx503eaa82501a) disconnect or roaming
+4月 23 09:34:12 alex-pc kernel: R8188EU: assoc success
+4月 23 09:34:12 alex-pc wpa_supplicant[730]: wlx503eaa82501a: Associated with d4:ee:07:60:27:14
+4月 23 09:34:12 alex-pc NetworkManager[759]: <info>  [1587605652.6617] device (wlx503eaa82501a): supplicant interface state: completed -> associated
+4月 23 09:34:12 alex-pc wpa_supplicant[730]: wlx503eaa82501a: WPA: Key negotiation completed with d4:ee:07:60:27:14 [PTK=CCMP GTK=CCMP]
+4月 23 09:34:12 alex-pc wpa_supplicant[730]: wlx503eaa82501a: CTRL-EVENT-CONNECTED - Connection to d4:ee:07:60:27:14 completed [id=0 id_str=]
+4月 23 09:34:12 alex-pc NetworkManager[759]: <info>  [1587605652.7377] device (wlx503eaa82501a): supplicant interface state: associated -> completed
+4月 23 09:34:14 alex-pc systemd-resolved[660]: Using degraded feature set (UDP) for DNS server 192.168.199.1.
+4月 23 09:34:36 alex-pc kernel: R8188EU: linked_status_chk(wlx503eaa82501a) disconnect or roaming
+4月 23 09:34:38 alex-pc kernel: R8188EU: assoc success
+4月 23 09:34:38 alex-pc wpa_supplicant[730]: wlx503eaa82501a: Associated with d4:ee:07:60:27:14
+4月 23 09:34:38 alex-pc NetworkManager[759]: <info>  [1587605678.8796] device (wlx503eaa82501a): supplicant interface state: completed -> associated
+4月 23 09:34:38 alex-pc wpa_supplicant[730]: wlx503eaa82501a: WPA: Key negotiation completed with d4:ee:07:60:27:14 [PTK=CCMP GTK=CCMP]
+4月 23 09:34:38 alex-pc wpa_supplicant[730]: wlx503eaa82501a: CTRL-EVENT-CONNECTED - Connection to d4:ee:07:60:27:14 completed [id=0 id_str=]
+4月 23 09:34:38 alex-pc NetworkManager[759]: <info>  [1587605678.9478] device (wlx503eaa82501a): supplicant interface state: associated -> 4-way handshake
+4月 23 09:34:38 alex-pc NetworkManager[759]: <info>  [1587605678.9533] device (wlx503eaa82501a): supplicant interface state: 4-way handshake -> completed
+4月 23 09:34:40 alex-pc systemd-resolved[660]: Using degraded feature set (UDP) for DNS server 192.168.199.1.
+4月 23 09:39:01 alex-pc CRON[3562]: pam_unix(cron:session): session opened for user root by (uid=0)
+4月 23 09:39:01 alex-pc CRON[3563]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+4月 23 09:39:01 alex-pc systemd[1]: Starting Clean php session files...
+4月 23 09:39:01 alex-pc CRON[3562]: pam_unix(cron:session): session closed for user root
+4月 23 09:39:02 alex-pc systemd[1]: Started Clean php session files.
+4月 23 09:40:20 alex-pc systemd-resolved[660]: Grace period over, resuming full feature set (UDP+EDNS0) for DNS server 192.168.199.1.
+4月 23 09:42:42 alex-pc systemd-resolved[660]: Using degraded feature set (UDP) for DNS server 192.168.199.1.
+4月 23 10:02:18 alex-pc systemd[1]: Started Run anacron jobs.
+4月 23 10:02:18 alex-pc anacron[3715]: Anacron 2.3 started on 2020-04-23
+4月 23 10:02:18 alex-pc anacron[3715]: Normal exit (0 jobs run)
+4月 23 10:09:02 alex-pc CRON[3741]: pam_unix(cron:session): session opened for user root by (uid=0)
+4月 23 10:09:02 alex-pc CRON[3742]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+4月 23 10:09:02 alex-pc systemd[1]: Starting Clean php session files...
+4月 23 10:09:02 alex-pc CRON[3741]: pam_unix(cron:session): session closed for user root
+4月 23 10:09:02 alex-pc systemd[1]: Started Clean php session files.
+4月 23 10:17:01 alex-pc CRON[3818]: pam_unix(cron:session): session opened for user root by (uid=0)
+4月 23 10:17:01 alex-pc CRON[3819]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+4月 23 10:17:01 alex-pc CRON[3818]: pam_unix(cron:session): session closed for user root
+4月 23 10:39:01 alex-pc CRON[3901]: pam_unix(cron:session): session opened for user root by (uid=0)
+4月 23 10:39:01 alex-pc CRON[3902]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+4月 23 10:39:01 alex-pc systemd[1]: Starting Clean php session files...
+4月 23 10:39:01 alex-pc CRON[3901]: pam_unix(cron:session): session closed for user root
+4月 23 10:39:01 alex-pc systemd[1]: Started Clean php session files.
+4月 23 11:04:03 alex-pc systemd[1]: Started Run anacron jobs.
+4月 23 11:04:03 alex-pc anacron[4038]: Anacron 2.3 started on 2020-04-23
+4月 23 11:04:03 alex-pc anacron[4038]: Normal exit (0 jobs run)
+4月 23 11:09:01 alex-pc CRON[4060]: pam_unix(cron:session): session opened for user root by (uid=0)
+4月 23 11:09:01 alex-pc CRON[4061]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+4月 23 11:09:01 alex-pc systemd[1]: Starting Clean php session files...
+4月 23 11:09:01 alex-pc CRON[4060]: pam_unix(cron:session): session closed for user root
+4月 23 11:09:01 alex-pc systemd[1]: Started Clean php session files.
+4月 23 11:17:01 alex-pc CRON[4137]: pam_unix(cron:session): session opened for user root by (uid=0)
+4月 23 11:17:01 alex-pc CRON[4138]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+4月 23 11:17:01 alex-pc CRON[4137]: pam_unix(cron:session): session closed for user root
+4月 23 11:39:01 alex-pc CRON[4220]: pam_unix(cron:session): session opened for user root by (uid=0)
+4月 23 11:39:01 alex-pc CRON[4221]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+4月 23 11:39:01 alex-pc systemd[1]: Starting Clean php session files...
+4月 23 11:39:01 alex-pc CRON[4220]: pam_unix(cron:session): session closed for user root
+4月 23 11:39:01 alex-pc systemd[1]: Started Clean php session files.
+4月 23 12:02:03 alex-pc systemd[1]: Started Run anacron jobs.
+4月 23 12:02:03 alex-pc anacron[4351]: Anacron 2.3 started on 2020-04-23
+4月 23 12:02:03 alex-pc anacron[4351]: Normal exit (0 jobs run)
+4月 23 12:09:01 alex-pc CRON[4376]: pam_unix(cron:session): session opened for user root by (uid=0)
+4月 23 12:09:01 alex-pc CRON[4377]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+4月 23 12:09:01 alex-pc systemd[1]: Starting Clean php session files...
+4月 23 12:09:01 alex-pc CRON[4376]: pam_unix(cron:session): session closed for user root
+4月 23 12:09:01 alex-pc systemd[1]: Started Clean php session files.
+4月 23 12:17:01 alex-pc CRON[4534]: pam_unix(cron:session): session opened for user root by (uid=0)
+4月 23 12:17:01 alex-pc CRON[4535]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+4月 23 12:17:01 alex-pc CRON[4534]: pam_unix(cron:session): session closed for user root
+4月 23 12:39:01 alex-pc CRON[4713]: pam_unix(cron:session): session opened for user root by (uid=0)
+4月 23 12:39:01 alex-pc CRON[4714]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+4月 23 12:39:01 alex-pc systemd[1]: Starting Clean php session files...
+4月 23 12:39:01 alex-pc CRON[4713]: pam_unix(cron:session): session closed for user root
+4月 23 12:39:01 alex-pc systemd[1]: Started Clean php session files.
+4月 23 12:45:56 alex-pc systemd-resolved[660]: Grace period over, resuming full feature set (UDP+EDNS0) for DNS server 192.168.199.1.
+4月 23 12:45:56 alex-pc systemd-resolved[660]: Using degraded feature set (UDP) for DNS server 192.168.199.1.
+4月 23 13:01:18 alex-pc systemd[1]: Started Run anacron jobs.
+4月 23 13:01:18 alex-pc anacron[4801]: Anacron 2.3 started on 2020-04-23
+4月 23 13:01:18 alex-pc anacron[4801]: Normal exit (0 jobs run)
+4月 23 13:09:01 alex-pc CRON[4819]: pam_unix(cron:session): session opened for user root by (uid=0)
+4月 23 13:09:01 alex-pc CRON[4820]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+4月 23 13:09:01 alex-pc systemd[1]: Starting Clean php session files...
+4月 23 13:09:01 alex-pc CRON[4819]: pam_unix(cron:session): session closed for user root
+4月 23 13:09:01 alex-pc systemd[1]: Started Clean php session files.
+4月 23 13:13:51 alex-pc sudo[4908]:     alex : TTY=pts/0 ; PWD=/home/alex/Documents/txt ; USER=root ; COMMAND=/usr/bin/vim memtrain
+4月 23 13:13:51 alex-pc sudo[4908]: pam_unix(sudo:session): session opened for user root by (uid=0)
+4月 23 13:17:01 alex-pc CRON[4933]: pam_unix(cron:session): session opened for user root by (uid=0)
+4月 23 13:17:01 alex-pc CRON[4934]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+4月 23 13:17:01 alex-pc CRON[4933]: pam_unix(cron:session): session closed for user root
+4月 23 13:39:01 alex-pc CRON[4981]: pam_unix(cron:session): session opened for user root by (uid=0)
+4月 23 13:39:01 alex-pc CRON[4982]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+4月 23 13:39:01 alex-pc systemd[1]: Starting Clean php session files...
+4月 23 13:39:01 alex-pc CRON[4981]: pam_unix(cron:session): session closed for user root
+4月 23 13:39:01 alex-pc systemd[1]: Started Clean php session files.
+4月 23 13:43:13 alex-pc dhclient[1321]: DHCPREQUEST of 192.168.199.156 on wlx503eaa82501a to 192.168.199.1 port 67 (xid=0x6d57df59)
+4月 23 13:43:13 alex-pc dhclient[1321]: DHCPACK of 192.168.199.156 from 192.168.199.1
+4月 23 13:43:13 alex-pc NetworkManager[759]: <info>  [1587620593.0915] dhcp4 (wlx503eaa82501a):   address 192.168.199.156
+4月 23 13:43:13 alex-pc NetworkManager[759]: <info>  [1587620593.0916] dhcp4 (wlx503eaa82501a):   plen 24 (255.255.255.0)
+4月 23 13:43:13 alex-pc NetworkManager[759]: <info>  [1587620593.0916] dhcp4 (wlx503eaa82501a):   gateway 192.168.199.1
+4月 23 13:43:13 alex-pc NetworkManager[759]: <info>  [1587620593.0917] dhcp4 (wlx503eaa82501a):   lease time 43200
+4月 23 13:43:13 alex-pc NetworkManager[759]: <info>  [1587620593.0917] dhcp4 (wlx503eaa82501a):   hostname 'alex-pc'
+4月 23 13:43:13 alex-pc NetworkManager[759]: <info>  [1587620593.0918] dhcp4 (wlx503eaa82501a):   nameserver '192.168.199.1'
+4月 23 13:43:13 alex-pc NetworkManager[759]: <info>  [1587620593.0918] dhcp4 (wlx503eaa82501a):   domain name 'lan'
+4月 23 13:43:13 alex-pc NetworkManager[759]: <info>  [1587620593.0919] dhcp4 (wlx503eaa82501a): state changed bound -> bound
+4月 23 13:43:13 alex-pc dbus-daemon[718]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.16' (uid=0 pid=759 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+4月 23 13:43:13 alex-pc systemd[1]: Starting Network Manager Script Dispatcher Service...
+4月 23 13:43:13 alex-pc dhclient[1321]: bound to 192.168.199.156 -- renewal in 15981 seconds.
+4月 23 13:43:13 alex-pc dbus-daemon[718]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+4月 23 13:43:13 alex-pc systemd[1]: Started Network Manager Script Dispatcher Service.
+4月 23 13:43:13 alex-pc nm-dispatcher[5041]: req:1 'dhcp4-change' [wlx503eaa82501a]: new request (1 scripts)
+4月 23 13:43:13 alex-pc nm-dispatcher[5041]: req:1 'dhcp4-change' [wlx503eaa82501a]: start running ordered scripts...
+4月 23 13:56:59 alex-pc sudo[4908]: pam_unix(sudo:session): session closed for user root
+4月 23 14:04:03 alex-pc systemd[1]: Started Run anacron jobs.
+4月 23 14:04:03 alex-pc anacron[5440]: Anacron 2.3 started on 2020-04-23
+4月 23 14:04:03 alex-pc anacron[5440]: Normal exit (0 jobs run)
+4月 23 14:09:01 alex-pc CRON[5451]: pam_unix(cron:session): session opened for user root by (uid=0)
+4月 23 14:09:01 alex-pc CRON[5452]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+4月 23 14:09:01 alex-pc CRON[5451]: pam_unix(cron:session): session closed for user root
+4月 23 14:09:01 alex-pc systemd[1]: Starting Clean php session files...
+4月 23 14:09:01 alex-pc systemd[1]: Started Clean php session files.
+4月 23 14:17:01 alex-pc CRON[5516]: pam_unix(cron:session): session opened for user root by (uid=0)
+4月 23 14:17:01 alex-pc CRON[5517]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+4月 23 14:17:01 alex-pc CRON[5516]: pam_unix(cron:session): session closed for user root
+4月 23 14:39:01 alex-pc CRON[5558]: pam_unix(cron:session): session opened for user root by (uid=0)
+4月 23 14:39:01 alex-pc CRON[5559]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+4月 23 14:39:01 alex-pc systemd[1]: Starting Clean php session files...
+4月 23 14:39:01 alex-pc CRON[5558]: pam_unix(cron:session): session closed for user root
+4月 23 14:39:01 alex-pc systemd[1]: Started Clean php session files.
+4月 23 15:04:03 alex-pc systemd[1]: Started Run anacron jobs.
+4月 23 15:04:03 alex-pc anacron[5725]: Anacron 2.3 started on 2020-04-23
+4月 23 15:04:03 alex-pc anacron[5725]: Normal exit (0 jobs run)
+4月 23 15:09:01 alex-pc CRON[5806]: pam_unix(cron:session): session opened for user root by (uid=0)
+4月 23 15:09:01 alex-pc CRON[5807]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+4月 23 15:09:01 alex-pc systemd[1]: Starting Clean php session files...
+4月 23 15:09:01 alex-pc CRON[5806]: pam_unix(cron:session): session closed for user root
+4月 23 15:09:01 alex-pc systemd[1]: Started Clean php session files.
+4月 23 15:16:02 alex-pc dbus-daemon[718]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.36' (uid=1000 pid=1527 comm="/usr/lib/chromium-browser/chromium-browser --enabl" label="unconfined")
+4月 23 15:16:02 alex-pc systemd[1]: Starting Hostname Service...
+4月 23 15:16:02 alex-pc dbus-daemon[718]: [system] Successfully activated service 'org.freedesktop.hostname1'
+4月 23 15:16:02 alex-pc systemd[1]: Started Hostname Service.
+4月 23 15:16:03 alex-pc gvfsd[1130]: mkdir failed on directory /var/cache/samba: Permission denied
+4月 23 15:16:04 alex-pc gvfsd[1130]: mkdir failed on directory /var/cache/samba: Permission denied
+4月 23 15:16:05 alex-pc gvfsd[1130]: mkdir failed on directory /var/cache/samba: Permission denied
+4月 23 15:16:06 alex-pc gvfsd[1130]: mkdir failed on directory /var/cache/samba: Permission denied
+4月 23 15:16:07 alex-pc gvfsd[1130]: mkdir failed on directory /var/cache/samba: Permission denied
+4月 23 15:16:08 alex-pc gvfsd[1130]: mkdir failed on directory /var/cache/samba: Permission denied
+4月 23 15:17:01 alex-pc CRON[5955]: pam_unix(cron:session): session opened for user root by (uid=0)
+4月 23 15:17:01 alex-pc CRON[5956]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+4月 23 15:17:01 alex-pc CRON[5955]: pam_unix(cron:session): session closed for user root
+4月 23 15:39:01 alex-pc CRON[6094]: pam_unix(cron:session): session opened for user root by (uid=0)
+4月 23 15:39:01 alex-pc CRON[6095]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+4月 23 15:39:01 alex-pc systemd[1]: Starting Clean php session files...
+4月 23 15:39:01 alex-pc CRON[6094]: pam_unix(cron:session): session closed for user root
+4月 23 15:39:01 alex-pc systemd[1]: Started Clean php session files.
+4月 23 15:43:13 alex-pc dbus-daemon[718]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.39' (uid=1000 pid=1527 comm="/usr/lib/chromium-browser/chromium-browser --enabl" label="unconfined")
+4月 23 15:43:13 alex-pc systemd[1]: Starting Hostname Service...
+4月 23 15:43:13 alex-pc dbus-daemon[718]: [system] Successfully activated service 'org.freedesktop.hostname1'
+4月 23 15:43:13 alex-pc systemd[1]: Started Hostname Service.
+4月 23 15:47:18 alex-pc dbus-daemon[718]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.42' (uid=1000 pid=1527 comm="/usr/lib/chromium-browser/chromium-browser --enabl" label="unconfined")
+4月 23 15:47:18 alex-pc systemd[1]: Starting Hostname Service...
+4月 23 15:47:18 alex-pc dbus-daemon[718]: [system] Successfully activated service 'org.freedesktop.hostname1'
+4月 23 15:47:18 alex-pc systemd[1]: Started Hostname Service.
+4月 23 15:49:29 alex-pc dbus-daemon[718]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.47' (uid=1000 pid=1527 comm="/usr/lib/chromium-browser/chromium-browser --enabl" label="unconfined")
+4月 23 15:49:29 alex-pc systemd[1]: Starting Hostname Service...
+4月 23 15:49:29 alex-pc dbus-daemon[718]: [system] Successfully activated service 'org.freedesktop.hostname1'
+4月 23 15:49:29 alex-pc systemd[1]: Started Hostname Service.
+4月 23 15:50:01 alex-pc dbus-daemon[718]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.49' (uid=1000 pid=1527 comm="/usr/lib/chromium-browser/chromium-browser --enabl" label="unconfined")
+4月 23 15:50:01 alex-pc systemd[1]: Starting Hostname Service...
+4月 23 15:50:01 alex-pc dbus-daemon[718]: [system] Successfully activated service 'org.freedesktop.hostname1'
+4月 23 15:50:01 alex-pc systemd[1]: Started Hostname Service.
+4月 23 15:51:38 alex-pc dbus-daemon[718]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.55' (uid=1000 pid=1527 comm="/usr/lib/chromium-browser/chromium-browser --enabl" label="unconfined")
+4月 23 15:51:38 alex-pc systemd[1]: Starting Hostname Service...
+4月 23 15:51:38 alex-pc dbus-daemon[718]: [system] Successfully activated service 'org.freedesktop.hostname1'
+4月 23 15:51:38 alex-pc systemd[1]: Started Hostname Service.
+4月 23 15:52:36 alex-pc dbus-daemon[718]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.58' (uid=1000 pid=1527 comm="/usr/lib/chromium-browser/chromium-browser --enabl" label="unconfined")
+4月 23 15:52:36 alex-pc systemd[1]: Starting Hostname Service...
+4月 23 15:52:36 alex-pc dbus-daemon[718]: [system] Successfully activated service 'org.freedesktop.hostname1'
+4月 23 15:52:36 alex-pc systemd[1]: Started Hostname Service.
+4月 23 16:01:18 alex-pc systemd[1]: Started Run anacron jobs.
+4月 23 16:01:18 alex-pc anacron[6336]: Anacron 2.3 started on 2020-04-23
+4月 23 16:01:18 alex-pc anacron[6336]: Normal exit (0 jobs run)
+4月 23 16:08:27 alex-pc sudo[6423]:     alex : TTY=pts/2 ; PWD=/home/alex/Downloads ; USER=root ; COMMAND=/bin/mv 16.jpg 17.jpg ../Documents/REACT/pao/src/components/imgs/
+4月 23 16:08:27 alex-pc sudo[6423]: pam_unix(sudo:session): session opened for user root by (uid=0)
+4月 23 16:08:27 alex-pc sudo[6423]: pam_unix(sudo:session): session closed for user root
+4月 23 16:08:51 alex-pc sudo[6433]:     alex : TTY=pts/2 ; PWD=/home/alex/Downloads ; USER=root ; COMMAND=/bin/mv 20.jpg 24.jpg 25.jpg ../Documents/REACT/pao/src/components/imgs/
+4月 23 16:08:51 alex-pc sudo[6433]: pam_unix(sudo:session): session opened for user root by (uid=0)
+4月 23 16:08:51 alex-pc sudo[6433]: pam_unix(sudo:session): session closed for user root
+4月 23 16:08:56 alex-pc sudo[6437]:     alex : TTY=pts/2 ; PWD=/home/alex/Downloads ; USER=root ; COMMAND=/bin/mv 39.jpg ../Documents/REACT/pao/src/components/imgs/
+4月 23 16:08:56 alex-pc sudo[6437]: pam_unix(sudo:session): session opened for user root by (uid=0)
+4月 23 16:08:56 alex-pc sudo[6437]: pam_unix(sudo:session): session closed for user root
+4月 23 16:09:01 alex-pc CRON[6439]: pam_unix(cron:session): session opened for user root by (uid=0)
+4月 23 16:09:01 alex-pc CRON[6440]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+4月 23 16:09:01 alex-pc CRON[6439]: pam_unix(cron:session): session closed for user root
+4月 23 16:09:01 alex-pc sudo[6441]:     alex : TTY=pts/2 ; PWD=/home/alex/Downloads ; USER=root ; COMMAND=/bin/mv 42.jpg ../Documents/REACT/pao/src/components/imgs/
+4月 23 16:09:01 alex-pc sudo[6441]: pam_unix(sudo:session): session opened for user root by (uid=0)
+4月 23 16:09:01 alex-pc sudo[6441]: pam_unix(sudo:session): session closed for user root
+4月 23 16:09:03 alex-pc systemd[1]: Starting Clean php session files...
+4月 23 16:09:03 alex-pc systemd[1]: Started Clean php session files.
+4月 23 16:09:07 alex-pc sudo[6492]:     alex : TTY=pts/2 ; PWD=/home/alex/Downloads ; USER=root ; COMMAND=/bin/mv 58.jpg ../Documents/REACT/pao/src/components/imgs/
+4月 23 16:09:07 alex-pc sudo[6492]: pam_unix(sudo:session): session opened for user root by (uid=0)
+4月 23 16:09:07 alex-pc sudo[6492]: pam_unix(sudo:session): session closed for user root
+4月 23 16:09:12 alex-pc sudo[6494]:     alex : TTY=pts/2 ; PWD=/home/alex/Downloads ; USER=root ; COMMAND=/bin/mv 60.jpg 62.jpg 67.jpg 68.jpg ../Documents/REACT/pao/src/components/imgs/
+4月 23 16:09:12 alex-pc sudo[6494]: pam_unix(sudo:session): session opened for user root by (uid=0)
+4月 23 16:09:12 alex-pc sudo[6494]: pam_unix(sudo:session): session closed for user root
+4月 23 16:09:18 alex-pc sudo[6496]:     alex : TTY=pts/2 ; PWD=/home/alex/Downloads ; USER=root ; COMMAND=/bin/mv 74.jpg ../Documents/REACT/pao/src/components/imgs/
+4月 23 16:09:18 alex-pc sudo[6496]: pam_unix(sudo:session): session opened for user root by (uid=0)
+4月 23 16:09:18 alex-pc sudo[6496]: pam_unix(sudo:session): session closed for user root
+4月 23 16:09:23 alex-pc sudo[6499]:     alex : TTY=pts/2 ; PWD=/home/alex/Downloads ; USER=root ; COMMAND=/bin/mv 84.jpg 88.jpg ../Documents/REACT/pao/src/components/imgs/
+4月 23 16:09:23 alex-pc sudo[6499]: pam_unix(sudo:session): session opened for user root by (uid=0)
+4月 23 16:09:23 alex-pc sudo[6499]: pam_unix(sudo:session): session closed for user root
+4月 23 16:09:29 alex-pc sudo[6501]:     alex : TTY=pts/2 ; PWD=/home/alex/Downloads ; USER=root ; COMMAND=/bin/mv 90.jpg 93.jpg 96.jpg ../Documents/REACT/pao/src/components/imgs/
+4月 23 16:09:29 alex-pc sudo[6501]: pam_unix(sudo:session): session opened for user root by (uid=0)
+4月 23 16:09:29 alex-pc sudo[6501]: pam_unix(sudo:session): session closed for user root
+4月 23 16:11:12 alex-pc dbus-daemon[1051]: [session uid=1000 pid=1051] Activating via systemd: service name='org.gtk.vfs.Metadata' unit='gvfs-metadata.service' requested by ':1.8' (uid=1000 pid=1027 comm="gedit /home/alex/Documents/WORK/plan.txt " label="unconfined")
+4月 23 16:11:12 alex-pc systemd[979]: Starting Virtual filesystem metadata service...
+4月 23 16:11:12 alex-pc dbus-daemon[1051]: [session uid=1000 pid=1051] Successfully activated service 'org.gtk.vfs.Metadata'
+4月 23 16:11:12 alex-pc systemd[979]: Started Virtual filesystem metadata service.
+4月 23 16:17:01 alex-pc CRON[6577]: pam_unix(cron:session): session opened for user root by (uid=0)
+4月 23 16:17:01 alex-pc CRON[6578]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+4月 23 16:17:01 alex-pc CRON[6577]: pam_unix(cron:session): session closed for user root
+4月 23 16:27:59 alex-pc snapd[771]: 2020/04/23 16:27:59.389707 autorefresh.go:338: auto-refresh: all snaps are up-to-date
+4月 23 16:39:01 alex-pc CRON[6673]: pam_unix(cron:session): session opened for user root by (uid=0)
+4月 23 16:39:01 alex-pc CRON[6674]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+4月 23 16:39:01 alex-pc systemd[1]: Starting Clean php session files...
+4月 23 16:39:01 alex-pc CRON[6673]: pam_unix(cron:session): session closed for user root
+4月 23 16:39:01 alex-pc systemd[1]: Started Clean php session files.
+4月 23 16:56:53 alex-pc kernel: R8188EU: linked_status_chk(wlx503eaa82501a) disconnect or roaming
+4月 23 16:56:55 alex-pc kernel: R8188EU: assoc success
+4月 23 16:56:55 alex-pc wpa_supplicant[730]: wlx503eaa82501a: Associated with d4:ee:07:60:27:14
+4月 23 16:56:55 alex-pc NetworkManager[759]: <info>  [1587632215.5226] device (wlx503eaa82501a): supplicant interface state: completed -> associated
+4月 23 16:56:55 alex-pc wpa_supplicant[730]: wlx503eaa82501a: WPA: Key negotiation completed with d4:ee:07:60:27:14 [PTK=CCMP GTK=CCMP]
+4月 23 16:56:55 alex-pc wpa_supplicant[730]: wlx503eaa82501a: CTRL-EVENT-CONNECTED - Connection to d4:ee:07:60:27:14 completed [id=0 id_str=]
+4月 23 16:56:55 alex-pc NetworkManager[759]: <info>  [1587632215.6122] device (wlx503eaa82501a): supplicant interface state: associated -> completed
+4月 23 16:56:56 alex-pc systemd-resolved[660]: Using degraded feature set (UDP) for DNS server 192.168.199.1.
+4月 23 17:01:18 alex-pc systemd[1]: Started Run anacron jobs.
+4月 23 17:01:18 alex-pc anacron[6773]: Anacron 2.3 started on 2020-04-23
+4月 23 17:01:18 alex-pc anacron[6773]: Normal exit (0 jobs run)
+4月 23 17:05:35 alex-pc systemd-resolved[660]: Grace period over, resuming full feature set (UDP+EDNS0) for DNS server 192.168.199.1.
+4月 23 17:05:35 alex-pc systemd-resolved[660]: Using degraded feature set (UDP) for DNS server 192.168.199.1.
+4月 23 17:06:30 alex-pc kernel: R8188EU: linked_status_chk(wlx503eaa82501a) disconnect or roaming
+4月 23 17:06:32 alex-pc kernel: R8188EU: assoc success
+4月 23 17:06:32 alex-pc wpa_supplicant[730]: wlx503eaa82501a: Associated with d4:ee:07:60:27:14
+4月 23 17:06:32 alex-pc NetworkManager[759]: <info>  [1587632792.0973] device (wlx503eaa82501a): supplicant interface state: completed -> associated
+4月 23 17:06:33 alex-pc NetworkManager[759]: <info>  [1587632793.1482] device (wlx503eaa82501a): supplicant interface state: associated -> 4-way handshake
+4月 23 17:06:33 alex-pc kernel: R8188EU: ap recv disassoc reason code(7) sta:d4:ee:07:60:27:14
+4月 23 17:06:33 alex-pc kernel: R8188EU: indicate disassoc
+4月 23 17:06:33 alex-pc wpa_supplicant[730]: wlx503eaa82501a: CTRL-EVENT-DISCONNECTED bssid=d4:ee:07:60:27:14 reason=0
+4月 23 17:06:33 alex-pc wpa_supplicant[730]: wlx503eaa82501a: WPA: 4-Way Handshake failed - pre-shared key may be incorrect
+4月 23 17:06:33 alex-pc wpa_supplicant[730]: wlx503eaa82501a: CTRL-EVENT-SSID-TEMP-DISABLED id=0 ssid="ziroom501" auth_failures=1 duration=10 reason=WRONG_KEY
+4月 23 17:06:33 alex-pc NetworkManager[759]: <info>  [1587632793.1605] device (wlx503eaa82501a): supplicant interface state: 4-way handshake -> disconnected
+4月 23 17:06:33 alex-pc NetworkManager[759]: <info>  [1587632793.1620] device (wlx503eaa82501a): Activation: (wifi) disconnected during association, asking for new key
+4月 23 17:06:33 alex-pc NetworkManager[759]: <info>  [1587632793.1622] device (wlx503eaa82501a): state change: activated -> need-auth (reason 'supplicant-disconnect', sys-iface-state: 'managed')
+4月 23 17:06:33 alex-pc NetworkManager[759]: <info>  [1587632793.1954] dhcp4 (wlx503eaa82501a): canceled DHCP transaction, DHCP client pid 1321
+4月 23 17:06:33 alex-pc NetworkManager[759]: <info>  [1587632793.1955] dhcp4 (wlx503eaa82501a): state changed bound -> done
+4月 23 17:06:33 alex-pc NetworkManager[759]: <info>  [1587632793.1967] manager: NetworkManager state is now CONNECTING
+4月 23 17:06:33 alex-pc whoopsie[1406]: [17:06:33] offline
+4月 23 17:06:33 alex-pc dbus-daemon[718]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.16' (uid=0 pid=759 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+4月 23 17:06:33 alex-pc NetworkManager[759]: <warn>  [1587632793.2082] device (wlx503eaa82501a): No agents were available for this request.
+4月 23 17:06:33 alex-pc NetworkManager[759]: <info>  [1587632793.2082] device (wlx503eaa82501a): state change: need-auth -> failed (reason 'no-secrets', sys-iface-state: 'managed')
+4月 23 17:06:33 alex-pc NetworkManager[759]: <info>  [1587632793.2089] manager: NetworkManager state is now DISCONNECTED
+4月 23 17:06:33 alex-pc NetworkManager[759]: <warn>  [1587632793.2097] device (wlx503eaa82501a): Activation: failed for connection 'ziroom501'
+4月 23 17:06:33 alex-pc systemd[1]: Starting Network Manager Script Dispatcher Service...
+4月 23 17:06:33 alex-pc avahi-daemon[724]: Withdrawing address record for fe80::abea:9c85:12dc:e77e on wlx503eaa82501a.
+4月 23 17:06:33 alex-pc kernel: IPv6: ADDRCONF(NETDEV_UP): wlx503eaa82501a: link is not ready
+4月 23 17:06:33 alex-pc whoopsie[1406]: [17:06:33] Cannot reach: https://daisy.ubuntu.com
+4月 23 17:06:33 alex-pc NetworkManager[759]: <info>  [1587632793.2109] device (wlx503eaa82501a): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+4月 23 17:06:33 alex-pc avahi-daemon[724]: Leaving mDNS multicast group on interface wlx503eaa82501a.IPv6 with address fe80::abea:9c85:12dc:e77e.
+4月 23 17:06:33 alex-pc avahi-daemon[724]: Interface wlx503eaa82501a.IPv6 no longer relevant for mDNS.
+4月 23 17:06:33 alex-pc avahi-daemon[724]: Withdrawing address record for 192.168.199.156 on wlx503eaa82501a.
+4月 23 17:06:33 alex-pc avahi-daemon[724]: Leaving mDNS multicast group on interface wlx503eaa82501a.IPv4 with address 192.168.199.156.
+4月 23 17:06:33 alex-pc avahi-daemon[724]: Interface wlx503eaa82501a.IPv4 no longer relevant for mDNS.
+4月 23 17:06:33 alex-pc dbus-daemon[718]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+4月 23 17:06:33 alex-pc systemd[1]: Started Network Manager Script Dispatcher Service.
+4月 23 17:06:33 alex-pc nm-dispatcher[6785]: req:1 'down' [wlx503eaa82501a]: new request (1 scripts)
+4月 23 17:06:33 alex-pc nm-dispatcher[6785]: req:1 'down' [wlx503eaa82501a]: start running ordered scripts...
+4月 23 17:06:33 alex-pc nm-dispatcher[6785]: req:2 'connectivity-change': new request (1 scripts)
+4月 23 17:06:33 alex-pc nm-dispatcher[6785]: req:2 'connectivity-change': start running ordered scripts...
+4月 23 17:06:35 alex-pc NetworkManager[759]: <info>  [1587632795.2619] device (wlx503eaa82501a): supplicant interface state: disconnected -> scanning
+4月 23 17:06:36 alex-pc wpa_supplicant[730]: wlx503eaa82501a: Reject scan trigger since one is already pending
+4月 23 17:06:36 alex-pc NetworkManager[759]: <info>  [1587632796.6274] device (wlx503eaa82501a): supplicant interface state: scanning -> disconnected
+4月 23 17:09:01 alex-pc CRON[6812]: pam_unix(cron:session): session opened for user root by (uid=0)
+4月 23 17:09:01 alex-pc CRON[6813]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+4月 23 17:09:01 alex-pc systemd[1]: Starting Clean php session files...
+4月 23 17:09:01 alex-pc CRON[6812]: pam_unix(cron:session): session closed for user root
+4月 23 17:09:01 alex-pc systemd[1]: Started Clean php session files.
+4月 23 17:17:01 alex-pc CRON[6880]: pam_unix(cron:session): session opened for user root by (uid=0)
+4月 23 17:17:01 alex-pc CRON[6881]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+4月 23 17:17:01 alex-pc CRON[6880]: pam_unix(cron:session): session closed for user root
